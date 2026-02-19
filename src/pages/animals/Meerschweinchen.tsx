@@ -12,67 +12,22 @@ export default function Meerschweinchen() {
         <p className="text-yellow-700 italic mt-1">Cavia porcellus</p>
       </div>
 
-      <div className="space-y-5">
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Größe: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Meerschweinchen werden 20 bis 35 Zentimeter lang und wiegen zwischen 700 und 1.200 Gramm. Einen sichtbaren Schwanz haben sie nicht. Sie sind damit deutlich größer als Hamster, aber kleiner als Kaninchen. Männchen werden etwas größer und schwerer als Weibchen.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Aussehen: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Meerschweinchen haben einen kompakten, runden Körper mit kurzen Beinen und großen, dunklen Augen. Ihr Fell kann kurz und glatt oder lang und lockig sein, je nach Rasse. Es gibt sie in vielen Farben: braun, schwarz, weiß, rot, dreifarbig oder gescheckt. Ihre kleinen runden Ohren stehen seitlich ab.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Lebensraum: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Meerschweinchen stammen aus den Anden in Südamerika. Dort leben Wildmeerschweinchen in Graslandschaften und felsigen Gebieten in kleinen Gruppen. Schon vor über 3.000 Jahren wurden sie von den Inkas als Haustiere gehalten. Als Haustiere brauchen sie ein geräumiges Gehege und die Gesellschaft von Artgenossen.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Nahrung: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Das Wichtigste im Speiseplan ist Heu — es sollte immer verfügbar sein. Dazu brauchen Meerschweinchen täglich frisches Gemüse und Kräuter. Besonders wichtig ist Vitamin C, denn genau wie Menschen können Meerschweinchen es nicht selbst herstellen. Paprika, Petersilie und Brokkoli sind gute Vitamin-C-Lieferanten.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Feinde: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            In Südamerika werden Wildmeerschweinchen von Greifvögeln, Schlangen, Füchsen und Wildkatzen gejagt. Als Fluchttiere sind sie sehr aufmerksam und schreckhaft. Bei Gefahr erstarren sie zunächst und flüchten dann blitzschnell in ein Versteck. Auch als Haustiere behalten sie dieses vorsichtige Verhalten bei.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Besonderheiten: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Meerschweinchen sind wahre Plaudertaschen! Sie kommunizieren mit vielen verschiedenen Lauten: Quietschen bedeutet Aufregung, Gurren zeigt Wohlbefinden, und lautes Pfeifen heißt „Ich habe Hunger!". Wenn sie sich freuen, springen sie wild in die Luft — das nennt man „Popcornen". Ihr Name kommt daher, dass sie „über das Meer" nach Europa kamen und quiekende Geräusche wie Schweinchen machen.
-          </p>
-        </section>
-
-        <hr className="border-yellow-200" />
-
-        <section>
-          <h2 className="text-lg font-bold text-yellow-800 inline">Vermehrung: </h2>
-          <p className="text-gray-700 leading-relaxed inline">
-            Meerschweinchen sind mit 59 bis 72 Tagen ungewöhnlich lange trächtig für so kleine Tiere. Dafür kommen die 1 bis 6 Jungen schon voll entwickelt zur Welt: Sie haben Fell, offene Augen und können sofort laufen und feste Nahrung fressen. Trotzdem werden sie noch etwa 3 Wochen von der Mutter gesäugt. Dieses sogenannte Nestflüchter-Verhalten ist für Nagetiere sehr ungewöhnlich.
-          </p>
-        </section>
+      <div className="text-gray-700 leading-relaxed space-y-4">
+        <p>
+          Meerschweinchen stammen aus den Anden in Südamerika, wo Wildmeerschweinchen in Graslandschaften und felsigen Gebieten in kleinen Gruppen leben. Schon vor über 3.000 Jahren wurden sie von den Inkas als Haustiere gehalten. Ihr Name kommt daher, dass sie „über das Meer" nach Europa kamen und quiekende Geräusche wie Schweinchen machen. Meerschweinchen werden 20 bis 35 Zentimeter lang und wiegen zwischen 700 und 1.200 Gramm. Einen sichtbaren Schwanz haben sie nicht.
+        </p>
+        <p>
+          Meerschweinchen haben einen kompakten, runden Körper mit kurzen Beinen und großen, dunklen Augen. Ihr Fell kann kurz und glatt oder lang und lockig sein, je nach Rasse, und es gibt sie in vielen Farben: braun, schwarz, weiß, rot, dreifarbig oder gescheckt. Ihre kleinen runden Ohren stehen seitlich ab.
+        </p>
+        <p>
+          Das Wichtigste im Speiseplan ist Heu — es sollte immer verfügbar sein. Dazu brauchen Meerschweinchen täglich frisches Gemüse und Kräuter. Besonders wichtig ist Vitamin C, denn genau wie Menschen können Meerschweinchen es nicht selbst herstellen. Paprika, Petersilie und Brokkoli sind gute Vitamin-C-Lieferanten. Als Haustiere brauchen sie unbedingt die Gesellschaft von Artgenossen, denn sie sind sehr soziale Tiere.
+        </p>
+        <p>
+          Meerschweinchen sind wahre Plaudertaschen! Sie kommunizieren mit vielen verschiedenen Lauten: Quietschen bedeutet Aufregung, Gurren zeigt Wohlbefinden, und lautes Pfeifen heißt „Ich habe Hunger!". Wenn sie sich freuen, springen sie wild in die Luft — das nennt man „Popcornen". In Südamerika werden Wildmeerschweinchen von Greifvögeln, Schlangen, Füchsen und Wildkatzen gejagt. Als Fluchttiere sind sie sehr aufmerksam und erstarren bei Gefahr zunächst, bevor sie blitzschnell in ein Versteck flüchten.
+        </p>
+        <p>
+          Meerschweinchen sind mit 59 bis 72 Tagen ungewöhnlich lange trächtig für so kleine Tiere. Dafür kommen die 1 bis 6 Jungen schon voll entwickelt zur Welt: Sie haben Fell, offene Augen und können sofort laufen und feste Nahrung fressen. Trotzdem werden sie noch etwa 3 Wochen von der Mutter gesäugt. Dieses sogenannte Nestflüchter-Verhalten ist für Nagetiere sehr ungewöhnlich.
+        </p>
       </div>
     </div>
   );
