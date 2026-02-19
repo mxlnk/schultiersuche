@@ -7,11 +7,8 @@ export default function Search() {
   const query = searchParams.get("q") || "";
   const lowerQuery = query.toLowerCase();
 
-  const results = animals.filter(
-    (animal) =>
-      animal.name.toLowerCase().includes(lowerQuery) ||
-      animal.text.toLowerCase().includes(lowerQuery) ||
-      animal.tags.some((tag) => tag.toLowerCase().includes(lowerQuery))
+  const results = animals.filter((animal) =>
+    animal.name.toLowerCase().includes(lowerQuery)
   );
 
   return (
@@ -26,15 +23,10 @@ export default function Search() {
 
       <div className="space-y-6">
         {results.map((animal) => (
-          <Link key={animal.id} to={`/tier/${animal.id}`} className="block group">
+          <Link key={animal.name} to={animal.link} className="block group">
             <h2 className="text-xl text-blue-700 group-hover:underline">
               {animal.name}
             </h2>
-            <p className="text-sm text-gray-600 mt-1">
-              {animal.text.length > 200
-                ? animal.text.slice(0, 200) + "..."
-                : animal.text}
-            </p>
           </Link>
         ))}
 

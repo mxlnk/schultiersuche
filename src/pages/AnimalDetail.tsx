@@ -1,11 +1,41 @@
 import { useParams, Link } from "react-router-dom";
-import { animals } from "../data/animals";
+import Hund from "./animals/Hund";
+import Katze from "./animals/Katze";
+import Hamster from "./animals/Hamster";
+import Wellensittich from "./animals/Wellensittich";
+import Kaninchen from "./animals/Kaninchen";
+import Meerschweinchen from "./animals/Meerschweinchen";
+import Schildkroete from "./animals/Schildkroete";
+import Goldfisch from "./animals/Goldfisch";
+import Marienkaefer from "./animals/Marienkaefer";
+import Rosenkaefer from "./animals/Rosenkaefer";
+import Libelle from "./animals/Libelle";
+import Distelfalter from "./animals/Distelfalter";
+import Ameise from "./animals/Ameise";
+import Hirschkaefer from "./animals/Hirschkaefer";
+
+const animalPages: Record<string, React.ComponentType> = {
+  hund: Hund,
+  katze: Katze,
+  hamster: Hamster,
+  wellensittich: Wellensittich,
+  kaninchen: Kaninchen,
+  meerschweinchen: Meerschweinchen,
+  schildkroete: Schildkroete,
+  goldfisch: Goldfisch,
+  marienkaefer: Marienkaefer,
+  rosenkaefer: Rosenkaefer,
+  libelle: Libelle,
+  distelfalter: Distelfalter,
+  ameise: Ameise,
+  hirschkaefer: Hirschkaefer,
+};
 
 export default function AnimalDetail() {
   const { id } = useParams();
-  const animal = animals.find((a) => a.id === id);
+  const AnimalPage = id ? animalPages[id] : undefined;
 
-  if (!animal) {
+  if (!AnimalPage) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">Tier nicht gefunden</h1>
@@ -16,25 +46,5 @@ export default function AnimalDetail() {
     );
   }
 
-  return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-blue-600 hover:underline text-sm">
-        &larr; Zurück zur Suche
-      </Link>
-      <h1 className="text-3xl font-bold text-gray-800 mt-4 mb-6">{animal.name}</h1>
-      <p className="text-gray-700 leading-relaxed whitespace-pre-line">{animal.text}</p>
-      {animal.tags.length > 0 && (
-        <div className="mt-6 flex gap-2 flex-wrap">
-          {animal.tags.map((tag) => (
-            <span
-              key={tag}
-              className="bg-gray-100 text-gray-600 text-xs px-3 py-1 rounded-full"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
-    </div>
-  );
+  return <AnimalPage />;
 }
