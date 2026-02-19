@@ -1,11 +1,16 @@
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function SearchBar({ defaultValue = "", autoFocus = false }) {
+interface SearchBarProps {
+  defaultValue?: string;
+  autoFocus?: boolean;
+}
+
+export default function SearchBar({ defaultValue = "", autoFocus = false }: SearchBarProps) {
   const [query, setQuery] = useState(defaultValue);
   const navigate = useNavigate();
 
-  function handleSubmit(e) {
+  function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const trimmed = query.trim();
     if (trimmed) {

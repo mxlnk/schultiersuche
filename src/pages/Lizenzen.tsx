@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function Lizenzen() {
-  const [text, setText] = useState(null);
+  const [text, setText] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {

@@ -1,4 +1,11 @@
-export const animals = [
+export interface Animal {
+  id: string;
+  name: string;
+  text: string;
+  tags: string[];
+}
+
+export const animals: Animal[] = [
   {
     id: "hund",
     name: "Hund",
