@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Wellensittich() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-green-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-green-100 hover:bg-green-200 text-green-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-green-50 border border-green-200 rounded-2xl p-6 text-center">
-        <h1 className="text-3xl font-bold text-green-900">Wellensittich</h1>
-        <p className="text-green-600 italic mt-1">Melopsittacus undulatus</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-green-100 via-emerald-50 to-lime-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🦜</div>
+        <h1 className="text-3xl md:text-4xl font-black text-green-900">Wellensittich</h1>
+        <p className="text-green-600 italic mt-1 text-base md:text-lg font-semibold">Melopsittacus undulatus</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Wellensittiche stammen aus dem trockenen Inneren Australiens. Dort leben sie in riesigen Schwärmen von Hunderten bis Tausenden Vögeln und ziehen auf der Suche nach Wasser und Futter umher. Als Haustiere sollten sie mindestens zu zweit gehalten werden, da sie sehr gesellige Tiere sind. Wellensittiche sind etwa 18 bis 20 Zentimeter lang und wiegen nur 30 bis 40 Gramm — das ist ungefähr so schwer wie ein Päckchen Taschentücher. Damit gehören sie zu den kleinsten Papageienarten der Welt.
         </p>

@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Rosenkaefer() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-emerald-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-emerald-100 hover:bg-emerald-200 text-emerald-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-emerald-800 rounded-lg p-6 text-white border-b-4 border-yellow-500">
-        <h1 className="text-3xl font-bold">Rosenkäfer</h1>
-        <p className="text-emerald-300 italic mt-1">Cetonia aurata</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-emerald-200 via-green-100 to-lime-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🪲</div>
+        <h1 className="text-3xl md:text-4xl font-black text-emerald-900">Rosenkäfer</h1>
+        <p className="text-emerald-600 italic mt-1 text-base md:text-lg font-semibold">Cetonia aurata</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Goldglänzende Rosenkäfer ist ein wahres Schmuckstück unter den Insekten. Seine Flügeldecken schimmern metallisch grün-golden und glänzen wie poliertes Metall. Je nach Lichteinfall schimmern sie auch kupfern oder bläulich. Dieses Leuchten entsteht nicht durch Farbpigmente, sondern durch die besondere Struktur der Oberfläche, die das Licht bricht — ähnlich wie bei einer Seifenblase. Auf der Unterseite ist er kupferfarben mit weißen Härchen. Der Rosenkäfer wird 14 bis 20 Millimeter groß und hat einen breiten, flachen Körper.
         </p>

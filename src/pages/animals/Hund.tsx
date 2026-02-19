@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Hund() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-amber-700 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-amber-100 hover:bg-amber-200 text-amber-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-amber-50 border-l-4 border-amber-600 rounded-r-lg p-6">
-        <h1 className="text-3xl font-bold text-amber-900">Hund</h1>
-        <p className="text-amber-700 italic mt-1">Canis lupus familiaris</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-amber-100 via-orange-50 to-yellow-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐕</div>
+        <h1 className="text-3xl md:text-4xl font-black text-amber-900">Hund</h1>
+        <p className="text-amber-600 italic mt-1 text-base md:text-lg font-semibold">Canis lupus familiaris</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Hund ist eines der ältesten Haustiere der Welt und lebt seit über 15.000 Jahren an der Seite des Menschen. Er stammt vom Wolf ab und gehört zur Familie der Hundeartigen. Heute kommen Hunde auf der ganzen Welt vor — in Häusern und Wohnungen, auf Bauernhöfen und manchmal auch als Straßenhunde in Städten.
         </p>

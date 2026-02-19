@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Hirschkaefer() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-amber-900 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-amber-100 hover:bg-amber-200 text-amber-900 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-amber-950 rounded-lg p-6 text-white border-t-4 border-amber-600">
-        <h1 className="text-3xl font-bold">Hirschkäfer</h1>
-        <p className="text-amber-300 italic mt-1">Lucanus cervus</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-amber-200 via-yellow-100 to-orange-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🪲</div>
+        <h1 className="text-3xl md:text-4xl font-black text-amber-950">Hirschkäfer</h1>
+        <p className="text-amber-700 italic mt-1 text-base md:text-lg font-semibold">Lucanus cervus</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Hirschkäfer ist der größte Käfer Europas und steht unter strengem Naturschutz, da er vom Aussterben bedroht ist. Er wurde zum Insekt des Jahres 2012 gewählt. Hirschkäfer leben in alten Laubwäldern, besonders in Eichenwäldern, denn sie brauchen alte, morsche Bäume und Baumstümpfe für die Entwicklung ihrer Larven. In manchen Regionen Deutschlands, besonders in Süddeutschland, gibt es noch größere Bestände, aber insgesamt sind sie selten geworden, weil alte Wälder immer weniger werden.
         </p>

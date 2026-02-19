@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Libelle() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-cyan-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-cyan-100 hover:bg-cyan-200 text-cyan-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-cyan-50 border border-cyan-200 rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-cyan-900">Libelle</h1>
-        <p className="text-cyan-600 italic mt-1">Odonata</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-cyan-100 via-sky-50 to-blue-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🪻</div>
+        <h1 className="text-3xl md:text-4xl font-black text-cyan-900">Libelle</h1>
+        <p className="text-cyan-600 italic mt-1 text-base md:text-lg font-semibold">Odonata</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Libellen gibt es seit über 300 Millionen Jahren — sie flogen schon durch die Luft, als es noch keine Dinosaurier gab. Damals hatten manche Arten eine Flügelspannweite von 70 Zentimetern! Heute leben Libellen immer in der Nähe von Gewässern: an Teichen, Seen, Bächen und Sümpfen. Sie brauchen sauberes Wasser, denn ihre Larven entwickeln sich dort. Deshalb sind Libellen auch ein gutes Zeichen für Wasserqualität.
         </p>

@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Katze() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-violet-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-violet-100 hover:bg-violet-200 text-violet-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-violet-50 rounded-xl p-6 text-center shadow-sm">
-        <h1 className="text-3xl font-bold text-violet-900">Katze</h1>
-        <p className="text-violet-600 italic mt-1">Felis catus</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-violet-100 via-purple-50 to-fuchsia-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐱</div>
+        <h1 className="text-3xl md:text-4xl font-black text-violet-900">Katze</h1>
+        <p className="text-violet-600 italic mt-1 text-base md:text-lg font-semibold">Felis catus</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Die Katze ist das beliebteste Haustier in Deutschland und lebt auf der ganzen Welt mit Menschen zusammen. Es gibt Wohnungskatzen, die nur drinnen leben, und Freigänger, die auch draußen herumstreifen. Wildkatzen leben in Wäldern und sind sehr scheu. Eine Hauskatze wird etwa 40 bis 50 Zentimeter lang, dazu kommt ein Schwanz von 25 bis 30 Zentimetern. Sie wiegt zwischen 3 und 8 Kilogramm, wobei Kater meistens etwas größer sind als weibliche Katzen.
         </p>

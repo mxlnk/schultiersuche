@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Schildkroete() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-teal-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-teal-100 hover:bg-teal-200 text-teal-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-teal-700 rounded-lg p-6 text-white">
-        <h1 className="text-3xl font-bold">Schildkröte</h1>
-        <p className="text-teal-200 italic mt-1">Testudines</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-teal-200 via-emerald-100 to-cyan-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐢</div>
+        <h1 className="text-3xl md:text-4xl font-black text-teal-900">Schildkröte</h1>
+        <p className="text-teal-600 italic mt-1 text-base md:text-lg font-semibold">Testudines</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Schildkröten gehören zu den ältesten Tiergruppen der Erde — sie lebten schon vor über 220 Millionen Jahren, noch vor den Dinosauriern! Heute kommen sie fast überall auf der Welt in warmen Gebieten vor. Landschildkröten leben in trockenen Gegenden, Waldgebieten und Steppen, Süßwasserschildkröten findet man in Seen und Flüssen, und Meeresschildkröten durchqueren die tropischen Ozeane. In Deutschland werden besonders Griechische und Russische Landschildkröten als Haustiere gehalten.
         </p>

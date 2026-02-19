@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-gray-50 mt-auto">
-      <div className="max-w-4xl mx-auto px-4 py-4 flex justify-center gap-6 text-sm text-gray-600">
-        <Link to="/impressum" className="hover:underline">
+    <footer className="mt-auto">
+      <div className="max-w-4xl mx-auto px-6 py-5 flex justify-center gap-6 text-sm text-gray-400 font-semibold">
+        <Link to="/impressum" className="hover:text-violet-500 transition-colors">
           Impressum & Datenschutz
         </Link>
-        <Link to="/lizenzen" className="hover:underline">
+        <Link to="/lizenzen" className="hover:text-violet-500 transition-colors">
           Lizenzen
         </Link>
       </div>

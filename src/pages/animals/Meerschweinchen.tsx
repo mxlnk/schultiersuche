@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Meerschweinchen() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-yellow-700 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-yellow-100 hover:bg-yellow-200 text-yellow-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-yellow-50 border-b-4 border-yellow-500 p-6">
-        <h1 className="text-3xl font-bold text-yellow-900">Meerschweinchen</h1>
-        <p className="text-yellow-700 italic mt-1">Cavia porcellus</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-yellow-100 via-amber-50 to-orange-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐹</div>
+        <h1 className="text-3xl md:text-4xl font-black text-yellow-900">Meerschweinchen</h1>
+        <p className="text-yellow-700 italic mt-1 text-base md:text-lg font-semibold">Cavia porcellus</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Meerschweinchen stammen aus den Anden in Südamerika, wo Wildmeerschweinchen in Graslandschaften und felsigen Gebieten in kleinen Gruppen leben. Schon vor über 3.000 Jahren wurden sie von den Inkas als Haustiere gehalten. Ihr Name kommt daher, dass sie „über das Meer" nach Europa kamen und quiekende Geräusche wie Schweinchen machen. Meerschweinchen werden 20 bis 35 Zentimeter lang und wiegen zwischen 700 und 1.200 Gramm. Einen sichtbaren Schwanz haben sie nicht.
         </p>

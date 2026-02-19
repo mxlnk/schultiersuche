@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Kaninchen() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-pink-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-pink-100 hover:bg-pink-200 text-pink-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-pink-50 rounded-2xl p-6 shadow-sm border border-pink-100">
-        <h1 className="text-3xl font-bold text-pink-900">Kaninchen</h1>
-        <p className="text-pink-600 italic mt-1">Oryctolagus cuniculus</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-pink-100 via-rose-50 to-fuchsia-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐰</div>
+        <h1 className="text-3xl md:text-4xl font-black text-pink-900">Kaninchen</h1>
+        <p className="text-pink-600 italic mt-1 text-base md:text-lg font-semibold">Oryctolagus cuniculus</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Kaninchen stammen ursprünglich von der Iberischen Halbinsel und leben heute in ganz Europa. Wildkaninchen graben weitverzweigte unterirdische Bauten, in denen sie in großen Gruppen zusammenleben. Als Haustiere brauchen sie ein geräumiges Gehege mit Versteckmöglichkeiten und täglichem Auslauf. Wildkaninchen werden etwa 35 bis 45 Zentimeter lang und wiegen 1 bis 2,5 Kilogramm. Bei Hauskaninchen gibt es viele Größen: Zwergkaninchen wiegen nur etwa 1 Kilogramm, während Deutsche Riesen über 7 Kilogramm schwer werden können.
         </p>

@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Distelfalter() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-orange-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-orange-100 hover:bg-orange-200 text-orange-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-gradient-to-r from-orange-200 via-rose-100 to-amber-100 rounded-xl p-6 text-center">
-        <h1 className="text-3xl font-bold text-orange-900">Distelfalter</h1>
-        <p className="text-rose-700 italic mt-1">Vanessa cardui</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-orange-200 via-rose-100 to-amber-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🦋</div>
+        <h1 className="text-3xl md:text-4xl font-black text-orange-900">Distelfalter</h1>
+        <p className="text-rose-600 italic mt-1 text-base md:text-lg font-semibold">Vanessa cardui</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Distelfalter ist der am weitesten verbreitete Schmetterling der Welt — er kommt auf allen Kontinenten vor, außer in der Antarktis und Südamerika. Er lebt auf offenen Wiesen, in Gärten, an Feldrändern und sogar in Gebirgen bis über 3.000 Meter Höhe. In Europa ist er vor allem im Sommer anzutreffen. Mit einer Flügelspannweite von 5 bis 6 Zentimetern gehört er zu den mittelgroßen Tagfaltern.
         </p>

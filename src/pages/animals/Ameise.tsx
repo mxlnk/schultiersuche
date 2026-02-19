@@ -2,17 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Ameise() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <Link to="/" className="text-stone-600 hover:underline text-sm">
+    <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-8 md:py-12">
+      <Link to="/" className="inline-block bg-stone-200 hover:bg-stone-300 text-stone-800 px-4 py-2 rounded-full text-sm font-bold transition-colors">
         &larr; Zurück zur Suche
       </Link>
 
-      <div className="mt-4 mb-8 bg-stone-800 rounded-lg p-6 text-white">
-        <h1 className="text-3xl font-bold">Ameise</h1>
-        <p className="text-stone-300 italic mt-1">Formica rufa — Rote Waldameise</p>
+      <div className="mt-6 mb-8 bg-gradient-to-br from-stone-200 via-amber-100 to-orange-100 rounded-3xl p-6 md:p-8 text-center shadow-md">
+        <div className="text-5xl md:text-6xl mb-2">🐜</div>
+        <h1 className="text-3xl md:text-4xl font-black text-stone-900">Ameise</h1>
+        <p className="text-stone-600 italic mt-1 text-base md:text-lg font-semibold">Formica rufa — Rote Waldameise</p>
       </div>
 
-      <div className="text-gray-700 leading-relaxed space-y-4">
+      <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Ameisen leben auf der ganzen Welt — in Wäldern, Wiesen, Wüsten und sogar in Städten. Nur in der Antarktis und auf einigen Inseln kommen sie nicht vor. Rote Waldameisen bauen große Ameisenhügel im Wald, die über einen Meter hoch werden können. Im Inneren herrscht ein ausgeklügeltes System aus Gängen und Kammern. Ein einziges Waldameisenvolk kann bis zu 1 Million Tiere umfassen. Waldameisen stehen unter Naturschutz, weil sie wichtig für das Ökosystem des Waldes sind.
         </p>

@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(135deg, #fef9f0 0%, #f0f4ff 50%, #fdf2f8 100%);
+  min-height: 100vh;
+}
