@@ -1,6 +1,40 @@
 import { useSearchParams, Link } from "react-router-dom";
-import { animals } from "../data/animals";
+import { animals, categories } from "../data/animals";
 import SearchBar from "../components/SearchBar";
+
+function levenshtein(a: string, b: string): number {
+  const m = a.length, n = b.length;
+  const dp: number[][] = Array.from({ length: m + 1 }, (_, i) =>
+    Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0))
+  );
+  for (let i = 1; i <= m; i++)
+    for (let j = 1; j <= n; j++)
+      dp[i][j] = a[i - 1] === b[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+  return dp[m][n];
+}
+
+function fuzzyMatch(query: string, text: string): boolean {
+  const q = query.toLowerCase();
+  const t = text.toLowerCase();
+  if (t.includes(q)) return true;
+  if (q.length < 3) return false;
+  const maxDist = q.length <= 4 ? 1 : 2;
+  if (levenshtein(q, t) <= maxDist) return true;
+  for (let i = 0; i <= t.length - q.length; i++) {
+    if (levenshtein(q, t.slice(i, i + q.length)) <= maxDist) return true;
+  }
+  if (q.length < t.length) {
+    for (let len = q.length - 1; len <= q.length + 1; len++) {
+      if (len < 1 || len > t.length) continue;
+      for (let i = 0; i <= t.length - len; i++) {
+        if (levenshtein(q, t.slice(i, i + len)) <= maxDist) return true;
+      }
+    }
+  }
+  return false;
+}
 
 const animalEmojis: Record<string, string> = {
   "/tier/hund": "🐕",
@@ -33,20 +67,40 @@ const cardColors = [
 export default function Search() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q") || "";
-  const lowerQuery = query.toLowerCase();
+
+  const matchingCategories = query
+    ? categories.filter((c) => fuzzyMatch(query, c.label))
+    : [];
 
   const results = animals.filter((animal) =>
-    animal.name.toLowerCase().includes(lowerQuery)
+    fuzzyMatch(query, animal.name) ||
+    matchingCategories.some((c) => c.id === animal.category)
   );
 
   return (
     <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-6 md:py-10">
+      <Link to="/" className="inline-block text-2xl md:text-3xl font-black mb-6 tracking-tight hover:scale-105 transition-transform">
+        <span className="text-rose-500">S</span>
+        <span className="text-amber-500">c</span>
+        <span className="text-emerald-500">h</span>
+        <span className="text-sky-500">u</span>
+        <span className="text-violet-500">l</span>
+        <span className="text-rose-500">t</span>
+        <span className="text-amber-500">i</span>
+        <span className="text-emerald-500">e</span>
+        <span className="text-sky-500">r</span>
+        <span className="text-violet-500">s</span>
+        <span className="text-rose-500">u</span>
+        <span className="text-amber-500">c</span>
+        <span className="text-emerald-500">h</span>
+        <span className="text-sky-500">e</span>
+      </Link>
       <div className="mb-8">
         <SearchBar defaultValue={query} />
       </div>
 
       <p className="text-base text-gray-500 mb-5 font-semibold">
-        {results.length} Ergebnis{results.length !== 1 && "se"} für &quot;{query}&quot;
+        {results.length} Ergebnis{results.length !== 1 ? "se" : ""} für &quot;{query}&quot;
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
