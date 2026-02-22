@@ -13,6 +13,12 @@ export default function Meerschweinchen() {
         <p className="text-yellow-700 italic mt-1 text-base md:text-lg font-semibold">Cavia porcellus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Meerschweinchen_2.jpg/640px-Meerschweinchen_2.jpg"
+        alt="Meerschweinchen"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Meerschweinchen stammen aus den Anden in Südamerika, wo Wildmeerschweinchen in Graslandschaften und felsigen Gebieten in kleinen Gruppen leben. Schon vor über 3.000 Jahren wurden sie von den Inkas als Haustiere gehalten. Ihr Name kommt daher, dass sie „über das Meer" nach Europa kamen und quiekende Geräusche wie Schweinchen machen. Meerschweinchen werden 20 bis 35 Zentimeter lang und wiegen zwischen 700 und 1.200 Gramm. Einen sichtbaren Schwanz haben sie nicht.

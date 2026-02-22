@@ -68,14 +68,23 @@ export default function Search() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q") || "";
 
-  const matchingCategories = query
-    ? categories.filter((c) => fuzzyMatch(query, c.label))
-    : [];
+  const lowerQuery = query.toLowerCase();
 
-  const results = animals.filter((animal) =>
-    fuzzyMatch(query, animal.name) ||
-    matchingCategories.some((c) => c.id === animal.category)
+  const exactCategoryMatches = query
+    ? categories.filter((c) => c.label.toLowerCase().includes(lowerQuery))
+    : [];
+  const exactResults = animals.filter((animal) =>
+    animal.name.toLowerCase().includes(lowerQuery) ||
+    exactCategoryMatches.some((c) => c.id === animal.category)
   );
+
+  const results = exactResults.length > 0
+    ? exactResults
+    : animals.filter((animal) =>
+        fuzzyMatch(query, animal.name) ||
+        categories.filter((c) => fuzzyMatch(query, c.label))
+          .some((c) => c.id === animal.category)
+      );
 
   return (
     <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-6 md:py-10">

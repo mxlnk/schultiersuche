@@ -13,6 +13,12 @@ export default function Hamster() {
         <p className="text-orange-600 italic mt-1 text-base md:text-lg font-semibold">Mesocricetus auratus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Goldhamster_terrarium.jpg/640px-Goldhamster_terrarium.jpg"
+        alt="Hamster"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Goldhamster stammt ursprünglich aus den trockenen Steppen Syriens, wo er in selbst gegrabenen Erdbauten mit mehreren Kammern lebt — für Vorräte, zum Schlafen und als Toilette. Als Haustiere brauchen Hamster ein geräumiges Gehege mit viel Einstreu zum Buddeln und Verstecken. Der Goldhamster wird etwa 12 bis 18 Zentimeter lang und wiegt zwischen 100 und 180 Gramm. Zwerghamster sind mit 7 bis 10 Zentimetern noch kleiner. Der Schwanz ist nur etwa 1 Zentimeter kurz und fällt kaum auf.

@@ -13,6 +13,12 @@ export default function Rosenkaefer() {
         <p className="text-emerald-600 italic mt-1 text-base md:text-lg font-semibold">Cetonia aurata</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cetonia-aurata.jpg/640px-Cetonia-aurata.jpg"
+        alt="Rosenkäfer"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Goldglänzende Rosenkäfer ist ein wahres Schmuckstück unter den Insekten. Seine Flügeldecken schimmern metallisch grün-golden und glänzen wie poliertes Metall. Je nach Lichteinfall schimmern sie auch kupfern oder bläulich. Dieses Leuchten entsteht nicht durch Farbpigmente, sondern durch die besondere Struktur der Oberfläche, die das Licht bricht — ähnlich wie bei einer Seifenblase. Auf der Unterseite ist er kupferfarben mit weißen Härchen. Der Rosenkäfer wird 14 bis 20 Millimeter groß und hat einen breiten, flachen Körper.

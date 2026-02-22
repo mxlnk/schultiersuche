@@ -13,6 +13,12 @@ export default function Katze() {
         <p className="text-violet-600 italic mt-1 text-base md:text-lg font-semibold">Felis catus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/640px-Hauskatze_langhaar.jpg"
+        alt="Katze"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Die Katze ist das beliebteste Haustier in Deutschland und lebt auf der ganzen Welt mit Menschen zusammen. Es gibt Wohnungskatzen, die nur drinnen leben, und Freigänger, die auch draußen herumstreifen. Wildkatzen leben in Wäldern und sind sehr scheu. Eine Hauskatze wird etwa 40 bis 50 Zentimeter lang, dazu kommt ein Schwanz von 25 bis 30 Zentimetern. Sie wiegt zwischen 3 und 8 Kilogramm, wobei Kater meistens etwas größer sind als weibliche Katzen.

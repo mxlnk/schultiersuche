@@ -13,6 +13,12 @@ export default function Goldfisch() {
         <p className="text-sky-600 italic mt-1 text-base md:text-lg font-semibold">Carassius auratus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Carassius_auratus_grandoculis_by_OpenCage.jpg/640px-Carassius_auratus_grandoculis_by_OpenCage.jpg"
+        alt="Goldfisch"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Goldfisch stammt ursprünglich aus Ostasien und lebte dort in langsam fließenden Gewässern und Teichen. Vor über 1.000 Jahren begannen die Menschen in China, ihn zu züchten, und heute lebt er als Haustier in Aquarien und Gartenteichen auf der ganzen Welt. Ein Goldfischglas ist übrigens viel zu klein — Goldfische brauchen mindestens ein 100-Liter-Aquarium.

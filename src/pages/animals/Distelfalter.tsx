@@ -13,6 +13,12 @@ export default function Distelfalter() {
         <p className="text-rose-600 italic mt-1 text-base md:text-lg font-semibold">Vanessa cardui</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Distelfalter-JR-A40-613-2009-05-24.jpg/640px-Distelfalter-JR-A40-613-2009-05-24.jpg"
+        alt="Distelfalter"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Distelfalter ist der am weitesten verbreitete Schmetterling der Welt — er kommt auf allen Kontinenten vor, außer in der Antarktis und Südamerika. Er lebt auf offenen Wiesen, in Gärten, an Feldrändern und sogar in Gebirgen bis über 3.000 Meter Höhe. In Europa ist er vor allem im Sommer anzutreffen. Mit einer Flügelspannweite von 5 bis 6 Zentimetern gehört er zu den mittelgroßen Tagfaltern.

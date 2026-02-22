@@ -13,6 +13,12 @@ export default function Hirschkaefer() {
         <p className="text-amber-700 italic mt-1 text-base md:text-lg font-semibold">Lucanus cervus</p>
       </div>
 
+      <img
+        src={import.meta.env.BASE_URL + "hirschkaefer.jpg"}
+        alt="Hirschkäfer"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Hirschkäfer ist der größte Käfer Europas und steht unter strengem Naturschutz, da er vom Aussterben bedroht ist. Er wurde zum Insekt des Jahres 2012 gewählt. Hirschkäfer leben in alten Laubwäldern, besonders in Eichenwäldern, denn sie brauchen alte, morsche Bäume und Baumstümpfe für die Entwicklung ihrer Larven. In manchen Regionen Deutschlands, besonders in Süddeutschland, gibt es noch größere Bestände, aber insgesamt sind sie selten geworden, weil alte Wälder immer weniger werden.

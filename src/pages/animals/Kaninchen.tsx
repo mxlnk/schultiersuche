@@ -13,6 +13,12 @@ export default function Kaninchen() {
         <p className="text-pink-600 italic mt-1 text-base md:text-lg font-semibold">Oryctolagus cuniculus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg/640px-Oryctolagus_cuniculus_Tasmania_2.jpg"
+        alt="Kaninchen"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Kaninchen stammen ursprünglich von der Iberischen Halbinsel und leben heute in ganz Europa. Wildkaninchen graben weitverzweigte unterirdische Bauten, in denen sie in großen Gruppen zusammenleben. Als Haustiere brauchen sie ein geräumiges Gehege mit Versteckmöglichkeiten und täglichem Auslauf. Wildkaninchen werden etwa 35 bis 45 Zentimeter lang und wiegen 1 bis 2,5 Kilogramm. Bei Hauskaninchen gibt es viele Größen: Zwergkaninchen wiegen nur etwa 1 Kilogramm, während Deutsche Riesen über 7 Kilogramm schwer werden können.

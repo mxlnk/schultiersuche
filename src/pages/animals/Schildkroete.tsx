@@ -13,6 +13,12 @@ export default function Schildkroete() {
         <p className="text-teal-600 italic mt-1 text-base md:text-lg font-semibold">Testudines</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Emys_orbicularis_1.jpg/640px-Emys_orbicularis_1.jpg"
+        alt="Schildkröte"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Schildkröten gehören zu den ältesten Tiergruppen der Erde — sie lebten schon vor über 220 Millionen Jahren, noch vor den Dinosauriern! Heute kommen sie fast überall auf der Welt in warmen Gebieten vor. Landschildkröten leben in trockenen Gegenden, Waldgebieten und Steppen, Süßwasserschildkröten findet man in Seen und Flüssen, und Meeresschildkröten durchqueren die tropischen Ozeane. In Deutschland werden besonders Griechische und Russische Landschildkröten als Haustiere gehalten.

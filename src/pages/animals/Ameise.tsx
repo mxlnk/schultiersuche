@@ -13,6 +13,12 @@ export default function Ameise() {
         <p className="text-stone-600 italic mt-1 text-base md:text-lg font-semibold">Formica rufa — Rote Waldameise</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Camponotus_sideview_2.jpg/640px-Camponotus_sideview_2.jpg"
+        alt="Ameise"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Ameisen leben auf der ganzen Welt — in Wäldern, Wiesen, Wüsten und sogar in Städten. Nur in der Antarktis und auf einigen Inseln kommen sie nicht vor. Rote Waldameisen bauen große Ameisenhügel im Wald, die über einen Meter hoch werden können. Im Inneren herrscht ein ausgeklügeltes System aus Gängen und Kammern. Ein einziges Waldameisenvolk kann bis zu 1 Million Tiere umfassen. Waldameisen stehen unter Naturschutz, weil sie wichtig für das Ökosystem des Waldes sind.

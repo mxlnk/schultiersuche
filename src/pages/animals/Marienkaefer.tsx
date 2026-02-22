@@ -13,6 +13,12 @@ export default function Marienkaefer() {
         <p className="text-red-600 italic mt-1 text-base md:text-lg font-semibold">Coccinella septempunctata</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ladybird.jpg/640px-Ladybird.jpg"
+        alt="Marienkäfer"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Siebenpunkt-Marienkäfer ist einer der bekanntesten und beliebtesten Käfer überhaupt und gilt in vielen Kulturen als Glücksbringer. Seinen Namen hat er vom Mittelalter, als die Menschen glaubten, die Jungfrau Maria habe ihn geschickt, um die Ernte vor Blattläusen zu schützen. Er wird nur 5 bis 8 Millimeter groß — etwa so groß wie ein Erbsenkorn — und passt bequem auf eine Fingerspitze.

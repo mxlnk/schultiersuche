@@ -13,6 +13,12 @@ export default function Libelle() {
         <p className="text-cyan-600 italic mt-1 text-base md:text-lg font-semibold">Odonata</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sympetrum_flaveolum_-_side_%28aka%29.jpg/640px-Sympetrum_flaveolum_-_side_%28aka%29.jpg"
+        alt="Libelle"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Libellen gibt es seit über 300 Millionen Jahren — sie flogen schon durch die Luft, als es noch keine Dinosaurier gab. Damals hatten manche Arten eine Flügelspannweite von 70 Zentimetern! Heute leben Libellen immer in der Nähe von Gewässern: an Teichen, Seen, Bächen und Sümpfen. Sie brauchen sauberes Wasser, denn ihre Larven entwickeln sich dort. Deshalb sind Libellen auch ein gutes Zeichen für Wasserqualität.

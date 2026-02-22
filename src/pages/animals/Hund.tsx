@@ -13,6 +13,12 @@ export default function Hund() {
         <p className="text-amber-600 italic mt-1 text-base md:text-lg font-semibold">Canis lupus familiaris</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Harzer_Fuchs_H%C3%BCndin_2.jpg/640px-Harzer_Fuchs_H%C3%BCndin_2.jpg"
+        alt="Hund"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Der Hund ist eines der ältesten Haustiere der Welt und lebt seit über 15.000 Jahren an der Seite des Menschen. Er stammt vom Wolf ab und gehört zur Familie der Hundeartigen. Heute kommen Hunde auf der ganzen Welt vor — in Häusern und Wohnungen, auf Bauernhöfen und manchmal auch als Straßenhunde in Städten.

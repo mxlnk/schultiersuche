@@ -13,6 +13,12 @@ export default function Wellensittich() {
         <p className="text-green-600 italic mt-1 text-base md:text-lg font-semibold">Melopsittacus undulatus</p>
       </div>
 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Melopsittacus_undulatus_Alice_Springs_Desert_Park_%28crop_2%29.jpg/640px-Melopsittacus_undulatus_Alice_Springs_Desert_Park_%28crop_2%29.jpg"
+        alt="Wellensittich"
+        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+      />
+
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
         <p>
           Wellensittiche stammen aus dem trockenen Inneren Australiens. Dort leben sie in riesigen Schwärmen von Hunderten bis Tausenden Vögeln und ziehen auf der Suche nach Wasser und Futter umher. Als Haustiere sollten sie mindestens zu zweit gehalten werden, da sie sehr gesellige Tiere sind. Wellensittiche sind etwa 18 bis 20 Zentimeter lang und wiegen nur 30 bis 40 Gramm — das ist ungefähr so schwer wie ein Päckchen Taschentücher. Damit gehören sie zu den kleinsten Papageienarten der Welt.
