@@ -14,7 +14,7 @@ export default function Kaninchen() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg/640px-Oryctolagus_cuniculus_Tasmania_2.jpg"
+        src={import.meta.env.BASE_URL + "kaninchen.jpg"}
         alt="Kaninchen"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

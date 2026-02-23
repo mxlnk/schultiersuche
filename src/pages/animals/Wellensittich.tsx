@@ -14,7 +14,7 @@ export default function Wellensittich() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Melopsittacus_undulatus_Alice_Springs_Desert_Park_%28crop_2%29.jpg/640px-Melopsittacus_undulatus_Alice_Springs_Desert_Park_%28crop_2%29.jpg"
+        src={import.meta.env.BASE_URL + "wellensittich.jpg"}
         alt="Wellensittich"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

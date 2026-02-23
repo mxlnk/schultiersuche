@@ -14,7 +14,7 @@ export default function Ameise() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Camponotus_sideview_2.jpg/640px-Camponotus_sideview_2.jpg"
+        src={import.meta.env.BASE_URL + "ameise.jpg"}
         alt="Ameise"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

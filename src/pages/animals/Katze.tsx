@@ -14,7 +14,7 @@ export default function Katze() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/640px-Hauskatze_langhaar.jpg"
+        src={import.meta.env.BASE_URL + "katze.jpg"}
         alt="Katze"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

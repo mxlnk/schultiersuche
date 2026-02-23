@@ -14,7 +14,7 @@ export default function Schildkroete() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Emys_orbicularis_1.jpg/640px-Emys_orbicularis_1.jpg"
+        src={import.meta.env.BASE_URL + "schildkroete.jpg"}
         alt="Schildkröte"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

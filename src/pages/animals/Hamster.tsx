@@ -14,7 +14,7 @@ export default function Hamster() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Goldhamster_terrarium.jpg/640px-Goldhamster_terrarium.jpg"
+        src={import.meta.env.BASE_URL + "hamster.jpg"}
         alt="Hamster"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

@@ -14,7 +14,7 @@ export default function Marienkaefer() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ladybird.jpg/640px-Ladybird.jpg"
+        src={import.meta.env.BASE_URL + "marienkaefer.jpg"}
         alt="Marienkäfer"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

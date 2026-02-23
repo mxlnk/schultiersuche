@@ -14,7 +14,7 @@ export default function Hund() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Harzer_Fuchs_H%C3%BCndin_2.jpg/640px-Harzer_Fuchs_H%C3%BCndin_2.jpg"
+        src={import.meta.env.BASE_URL + "hund.jpg"}
         alt="Hund"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

@@ -14,7 +14,7 @@ export default function Distelfalter() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Distelfalter-JR-A40-613-2009-05-24.jpg/640px-Distelfalter-JR-A40-613-2009-05-24.jpg"
+        src={import.meta.env.BASE_URL + "distelfalter.jpg"}
         alt="Distelfalter"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

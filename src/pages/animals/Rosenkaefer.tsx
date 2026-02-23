@@ -14,7 +14,7 @@ export default function Rosenkaefer() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cetonia-aurata.jpg/640px-Cetonia-aurata.jpg"
+        src={import.meta.env.BASE_URL + "rosenkaefer.jpg"}
         alt="Rosenkäfer"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />

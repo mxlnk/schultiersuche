@@ -14,7 +14,7 @@ export default function Goldfisch() {
       </div>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Carassius_auratus_grandoculis_by_OpenCage.jpg/640px-Carassius_auratus_grandoculis_by_OpenCage.jpg"
+        src={import.meta.env.BASE_URL + "goldfisch.jpg"}
         alt="Goldfisch"
         className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
       />
