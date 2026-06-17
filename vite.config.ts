@@ -19,10 +19,10 @@ export default defineConfig({
       // Registrierungs-Code wird automatisch in die index.html injiziert.
       injectRegister: "auto",
       manifest: {
-        name: "Schultiersuche",
-        short_name: "Schultiersuche",
+        name: "Schul-Natur-Wiki",
+        short_name: "Natur-Wiki",
         description:
-          "Finde dein Lieblingstier – offline nutzbar für draußen in der Natur.",
+          "Tiere und Pflanzen entdecken – offline nutzbar für draußen in der Natur.",
         lang: "de",
         // Pfade relativ zum manifest (liegt unter /schultiersuche/).
         start_url: ".",

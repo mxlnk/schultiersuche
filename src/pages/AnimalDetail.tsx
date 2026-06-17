@@ -74,7 +74,7 @@ export default function AnimalDetail() {
   if (!AnimalPage) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">Tier nicht gefunden</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-4">Seite nicht gefunden</h1>
         <Link to="/" className="text-blue-600 hover:underline">
           Zurück zur Startseite
         </Link>
