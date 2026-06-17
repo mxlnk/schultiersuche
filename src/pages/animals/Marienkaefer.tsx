@@ -35,6 +35,9 @@ export default function Marienkaefer() {
         <p>
           Das Weibchen legt im Frühling kleine, gelbe Eier an die Unterseite von Blättern, am liebsten dort, wo viele Blattläuse sitzen. Aus den Eiern schlüpfen nach wenigen Tagen Larven, die gar nicht wie Marienkäfer aussehen: Sie sind länglich, dunkel und stachelig. Die Larven fressen sich mehrere Wochen lang satt, verpuppen sich dann und schlüpfen schließlich als fertige Marienkäfer. Diese Verwandlung nennt man Metamorphose.
         </p>
+        <p>
+          Der Marienkäfer ist ein echter „Pflanzen-Polizist": Er frisst Blattläuse, die sonst Pflanzen in Gärten und auf Feldern schädigen würden — ganz ohne Gift! Deshalb ist er ein wertvoller Nützling, den wir schützen sollten. Am besten hilfst du ihm, indem du in deinem Garten auf Pestizide verzichtest und Laubhaufen als Winterquartier stehen lässt.
+        </p>
       </div>
     </div>
   );
