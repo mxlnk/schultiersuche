@@ -13,6 +13,15 @@ import Libelle from "./animals/Libelle";
 import Distelfalter from "./animals/Distelfalter";
 import Ameise from "./animals/Ameise";
 import Hirschkaefer from "./animals/Hirschkaefer";
+import WildeMoehre from "./animals/WildeMoehre";
+import Kornblume from "./animals/Kornblume";
+import Schilf from "./animals/Schilf";
+import Schlehe from "./animals/Schlehe";
+import Weissdorn from "./animals/Weissdorn";
+import Hundsrose from "./animals/Hundsrose";
+import Weide from "./animals/Weide";
+import Holunder from "./animals/Holunder";
+import Brennnessel from "./animals/Brennnessel";
 
 const animalPages: Record<string, React.ComponentType> = {
   hund: Hund,
@@ -29,6 +38,15 @@ const animalPages: Record<string, React.ComponentType> = {
   distelfalter: Distelfalter,
   ameise: Ameise,
   hirschkaefer: Hirschkaefer,
+  "wilde-moehre": WildeMoehre,
+  kornblume: Kornblume,
+  schilf: Schilf,
+  schlehe: Schlehe,
+  weissdorn: Weissdorn,
+  hundsrose: Hundsrose,
+  weide: Weide,
+  holunder: Holunder,
+  brennnessel: Brennnessel,
 };
 
 export default function AnimalDetail() {

@@ -51,6 +51,15 @@ const animalEmojis: Record<string, string> = {
   "/tier/distelfalter": "🦋",
   "/tier/ameise": "🐜",
   "/tier/hirschkaefer": "🪲",
+  "/tier/wilde-moehre": "🥕",
+  "/tier/kornblume": "🌸",
+  "/tier/schilf": "🌾",
+  "/tier/schlehe": "🫐",
+  "/tier/weissdorn": "🌳",
+  "/tier/hundsrose": "🌹",
+  "/tier/weide": "🌿",
+  "/tier/holunder": "🍇",
+  "/tier/brennnessel": "🦋",
 };
 
 const cardColors = [

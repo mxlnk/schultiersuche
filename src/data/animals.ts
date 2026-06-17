@@ -1,4 +1,15 @@
-export type Category = "saeugetiere" | "insekten" | "voegel" | "reptilien" | "fische";
+export type Category =
+  | "saeugetiere"
+  | "insekten"
+  | "voegel"
+  | "reptilien"
+  | "fische"
+  | "wildblumen"
+  | "schilf"
+  | "straeucher"
+  | "weiden"
+  | "holunder"
+  | "brennnessel";
 
 export interface Animal {
   name: string;
@@ -12,6 +23,12 @@ export const categories: { id: Category; label: string; emoji: string }[] = [
   { id: "voegel", label: "Vögel", emoji: "🐦" },
   { id: "reptilien", label: "Reptilien", emoji: "🦎" },
   { id: "fische", label: "Fische", emoji: "🐟" },
+  { id: "wildblumen", label: "Wildblumen", emoji: "🌼" },
+  { id: "schilf", label: "Schilf", emoji: "🌾" },
+  { id: "straeucher", label: "Sträucher", emoji: "🌳" },
+  { id: "weiden", label: "Weiden", emoji: "🌿" },
+  { id: "holunder", label: "Holunder", emoji: "🫐" },
+  { id: "brennnessel", label: "Brennnessel", emoji: "🦋" },
 ];
 
 export const animals: Animal[] = [
@@ -29,4 +46,14 @@ export const animals: Animal[] = [
   { name: "Distelfalter", link: "/tier/distelfalter", category: "insekten" },
   { name: "Ameise", link: "/tier/ameise", category: "insekten" },
   { name: "Hirschkäfer", link: "/tier/hirschkaefer", category: "insekten" },
+  // Pflanzen — wichtig für den Naturschutz
+  { name: "Wilde Möhre", link: "/tier/wilde-moehre", category: "wildblumen" },
+  { name: "Kornblume", link: "/tier/kornblume", category: "wildblumen" },
+  { name: "Schilf", link: "/tier/schilf", category: "schilf" },
+  { name: "Schlehe", link: "/tier/schlehe", category: "straeucher" },
+  { name: "Weißdorn", link: "/tier/weissdorn", category: "straeucher" },
+  { name: "Hundsrose", link: "/tier/hundsrose", category: "straeucher" },
+  { name: "Weide", link: "/tier/weide", category: "weiden" },
+  { name: "Schwarzer Holunder", link: "/tier/holunder", category: "holunder" },
+  { name: "Brennnessel", link: "/tier/brennnessel", category: "brennnessel" },
 ];
