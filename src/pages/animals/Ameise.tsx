@@ -35,6 +35,9 @@ export default function Ameise() {
         <p>
           Nur die Königin legt Eier — bis zu 300 Stück am Tag. Alle Arbeiterinnen im Volk sind Weibchen, die keine Eier legen. Einmal im Jahr schlüpfen geflügelte Männchen und junge Königinnen, die zum Hochzeitsflug ausschwärmen. Nach der Paarung in der Luft sterben die Männchen, und die befruchtete Königin wirft ihre Flügel ab und gründet ein neues Volk oder kehrt in den alten Bau zurück. Eine Ameisenkönigin kann über 20 Jahre alt werden.
         </p>
+        <p>
+          Die Rote Waldameise ist die „Müllabfuhr des Waldes“: Sie räumt tote Insekten weg, lockert mit ihren Gängen die Erde und verbreitet sogar Pflanzensamen. So hält sie den Wald sauber und gesund — und genau deshalb steht sie unter Naturschutz. Wer einen Ameisenhügel findet, sollte ihn in Ruhe lassen und nicht darauftreten.
+        </p>
       </div>
     </div>
   );
