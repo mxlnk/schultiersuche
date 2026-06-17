@@ -1,6 +1,7 @@
 import { useSearchParams, Link } from "react-router-dom";
-import { animals, categories } from "../data/animals";
+import { entries, categories } from "../data/entries";
 import SearchBar from "../components/SearchBar";
+import Wordmark from "../components/Wordmark";
 
 function levenshtein(a: string, b: string): number {
   const m = a.length, n = b.length;
@@ -36,41 +37,6 @@ function fuzzyMatch(query: string, text: string): boolean {
   return false;
 }
 
-const animalEmojis: Record<string, string> = {
-  "/tier/hund": "🐕",
-  "/tier/katze": "🐱",
-  "/tier/hamster": "🐹",
-  "/tier/wellensittich": "🦜",
-  "/tier/kaninchen": "🐰",
-  "/tier/meerschweinchen": "🐹",
-  "/tier/schildkroete": "🐢",
-  "/tier/goldfisch": "🐠",
-  "/tier/marienkaefer": "🐞",
-  "/tier/rosenkaefer": "🪲",
-  "/tier/libelle": "🪻",
-  "/tier/distelfalter": "🦋",
-  "/tier/ameise": "🐜",
-  "/tier/hirschkaefer": "🪲",
-  "/tier/biene": "🐝",
-  "/tier/hummel": "🐝",
-  "/tier/frosch": "🐸",
-  "/tier/kroete": "🐸",
-  "/tier/graureiher": "🐦",
-  "/tier/hoeckerschwan": "🦢",
-  "/tier/stockente": "🦆",
-  "/tier/meise": "🐦",
-  "/tier/regenwurm": "🪱",
-  "/tier/wilde-moehre": "🥕",
-  "/tier/kornblume": "🌸",
-  "/tier/schilf": "🌾",
-  "/tier/schlehe": "🫐",
-  "/tier/weissdorn": "🌳",
-  "/tier/hundsrose": "🌹",
-  "/tier/weide": "🌿",
-  "/tier/holunder": "🍇",
-  "/tier/brennnessel": "🦋",
-};
-
 const cardColors = [
   "bg-rose-50 border-rose-200 hover:bg-rose-100",
   "bg-amber-50 border-amber-200 hover:bg-amber-100",
@@ -91,36 +57,23 @@ export default function Search() {
   const exactCategoryMatches = query
     ? categories.filter((c) => c.label.toLowerCase().includes(lowerQuery))
     : [];
-  const exactResults = animals.filter((animal) =>
-    animal.name.toLowerCase().includes(lowerQuery) ||
-    exactCategoryMatches.some((c) => c.id === animal.category)
+  const exactResults = entries.filter((entry) =>
+    entry.name.toLowerCase().includes(lowerQuery) ||
+    exactCategoryMatches.some((c) => c.id === entry.category)
   );
 
   const results = exactResults.length > 0
     ? exactResults
-    : animals.filter((animal) =>
-        fuzzyMatch(query, animal.name) ||
+    : entries.filter((entry) =>
+        fuzzyMatch(query, entry.name) ||
         categories.filter((c) => fuzzyMatch(query, c.label))
-          .some((c) => c.id === animal.category)
+          .some((c) => c.id === entry.category)
       );
 
   return (
     <div className="max-w-2xl md:max-w-3xl mx-auto px-5 md:px-10 py-6 md:py-10">
-      <Link to="/" className="inline-block text-2xl md:text-3xl font-black mb-6 tracking-tight hover:scale-105 transition-transform">
-        <span className="text-rose-500">S</span>
-        <span className="text-amber-500">c</span>
-        <span className="text-emerald-500">h</span>
-        <span className="text-sky-500">u</span>
-        <span className="text-violet-500">l</span>
-        <span className="text-rose-500">t</span>
-        <span className="text-amber-500">i</span>
-        <span className="text-emerald-500">e</span>
-        <span className="text-sky-500">r</span>
-        <span className="text-violet-500">s</span>
-        <span className="text-rose-500">u</span>
-        <span className="text-amber-500">c</span>
-        <span className="text-emerald-500">h</span>
-        <span className="text-sky-500">e</span>
+      <Link to="/" className="inline-block text-2xl md:text-3xl font-black mb-6 tracking-tight">
+        <Wordmark />
       </Link>
       <div className="mb-8">
         <SearchBar defaultValue={query} />
@@ -131,16 +84,16 @@ export default function Search() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {results.map((animal, i) => (
+        {results.map((entry, i) => (
           <Link
-            key={animal.name}
-            to={animal.link}
+            key={entry.name}
+            to={entry.link}
             className={`block border-2 rounded-2xl p-5 md:p-6 transition-all ${cardColors[i % cardColors.length]}`}
           >
             <div className="flex items-center gap-3">
-              <span className="text-3xl md:text-4xl">{animalEmojis[animal.link] || "🐾"}</span>
+              <span className="text-3xl md:text-4xl">{entry.emoji}</span>
               <h2 className="text-xl md:text-2xl font-bold text-gray-800">
-                {animal.name}
+                {entry.name}
               </h2>
             </div>
           </Link>
@@ -151,7 +104,7 @@ export default function Search() {
         <div className="text-center py-12">
           <div className="text-5xl mb-4">🔍</div>
           <p className="text-gray-500 text-lg font-semibold">
-            Kein Tier gefunden. Versuch es mit einem anderen Namen!
+            Nichts gefunden. Versuch es mit einem anderen Namen!
           </p>
         </div>
       )}
