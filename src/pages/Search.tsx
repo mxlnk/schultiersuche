@@ -60,6 +60,15 @@ const animalEmojis: Record<string, string> = {
   "/tier/stockente": "🦆",
   "/tier/meise": "🐦",
   "/tier/regenwurm": "🪱",
+  "/tier/wilde-moehre": "🥕",
+  "/tier/kornblume": "🌸",
+  "/tier/schilf": "🌾",
+  "/tier/schlehe": "🫐",
+  "/tier/weissdorn": "🌳",
+  "/tier/hundsrose": "🌹",
+  "/tier/weide": "🌿",
+  "/tier/holunder": "🍇",
+  "/tier/brennnessel": "🦋",
 };
 
 const cardColors = [

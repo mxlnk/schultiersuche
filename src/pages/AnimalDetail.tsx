@@ -22,6 +22,15 @@ import Hoeckerschwan from "./animals/Hoeckerschwan";
 import Stockente from "./animals/Stockente";
 import Meise from "./animals/Meise";
 import Regenwurm from "./animals/Regenwurm";
+import WildeMoehre from "./animals/WildeMoehre";
+import Kornblume from "./animals/Kornblume";
+import Schilf from "./animals/Schilf";
+import Schlehe from "./animals/Schlehe";
+import Weissdorn from "./animals/Weissdorn";
+import Hundsrose from "./animals/Hundsrose";
+import Weide from "./animals/Weide";
+import Holunder from "./animals/Holunder";
+import Brennnessel from "./animals/Brennnessel";
 
 const animalPages: Record<string, React.ComponentType> = {
   hund: Hund,
@@ -47,6 +56,15 @@ const animalPages: Record<string, React.ComponentType> = {
   stockente: Stockente,
   meise: Meise,
   regenwurm: Regenwurm,
+  "wilde-moehre": WildeMoehre,
+  kornblume: Kornblume,
+  schilf: Schilf,
+  schlehe: Schlehe,
+  weissdorn: Weissdorn,
+  hundsrose: Hundsrose,
+  weide: Weide,
+  holunder: Holunder,
+  brennnessel: Brennnessel,
 };
 
 export default function AnimalDetail() {

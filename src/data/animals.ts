@@ -1,4 +1,17 @@
-export type Category = "saeugetiere" | "insekten" | "voegel" | "reptilien" | "fische" | "amphibien" | "wuermer";
+export type Category =
+  | "saeugetiere"
+  | "insekten"
+  | "voegel"
+  | "reptilien"
+  | "fische"
+  | "amphibien"
+  | "wuermer"
+  | "wildblumen"
+  | "schilf"
+  | "straeucher"
+  | "weiden"
+  | "holunder"
+  | "brennnessel";
 
 export interface Animal {
   name: string;
@@ -14,6 +27,12 @@ export const categories: { id: Category; label: string; emoji: string }[] = [
   { id: "fische", label: "Fische", emoji: "🐟" },
   { id: "amphibien", label: "Amphibien", emoji: "🐸" },
   { id: "wuermer", label: "Würmer", emoji: "🪱" },
+  { id: "wildblumen", label: "Wildblumen", emoji: "🌼" },
+  { id: "schilf", label: "Schilf", emoji: "🌾" },
+  { id: "straeucher", label: "Sträucher", emoji: "🌳" },
+  { id: "weiden", label: "Weiden", emoji: "🌿" },
+  { id: "holunder", label: "Holunder", emoji: "🫐" },
+  { id: "brennnessel", label: "Brennnessel", emoji: "🦋" },
 ];
 
 export const animals: Animal[] = [
@@ -40,4 +59,14 @@ export const animals: Animal[] = [
   { name: "Stockente", link: "/tier/stockente", category: "voegel" },
   { name: "Meise", link: "/tier/meise", category: "voegel" },
   { name: "Regenwurm", link: "/tier/regenwurm", category: "wuermer" },
+  // Pflanzen — wichtig für den Naturschutz
+  { name: "Wilde Möhre", link: "/tier/wilde-moehre", category: "wildblumen" },
+  { name: "Kornblume", link: "/tier/kornblume", category: "wildblumen" },
+  { name: "Schilf", link: "/tier/schilf", category: "schilf" },
+  { name: "Schlehe", link: "/tier/schlehe", category: "straeucher" },
+  { name: "Weißdorn", link: "/tier/weissdorn", category: "straeucher" },
+  { name: "Hundsrose", link: "/tier/hundsrose", category: "straeucher" },
+  { name: "Weide", link: "/tier/weide", category: "weiden" },
+  { name: "Schwarzer Holunder", link: "/tier/holunder", category: "holunder" },
+  { name: "Brennnessel", link: "/tier/brennnessel", category: "brennnessel" },
 ];
