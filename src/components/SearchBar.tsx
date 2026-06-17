@@ -39,7 +39,7 @@ export default function SearchBar({ defaultValue = "", autoFocus = false }: Sear
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           autoFocus={autoFocus}
-          placeholder="Welches Tier suchst du?"
+          placeholder="Was möchtest du entdecken?"
           className="w-full outline-none text-gray-700 bg-transparent text-lg md:text-xl font-semibold placeholder:text-gray-400 placeholder:font-normal"
         />
       </div>
