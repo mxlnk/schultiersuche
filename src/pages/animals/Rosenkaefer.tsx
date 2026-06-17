@@ -32,6 +32,9 @@ export default function Rosenkaefer() {
         <p>
           Das Weibchen legt seine Eier in Komposthaufen oder verrottende Baumstümpfe. Die Larven — dicke, weiße Engerlinge mit braunem Kopf — brauchen erstaunliche 2 bis 3 Jahre für ihre Entwicklung. Sie ernähren sich von verrottenden Pflanzenresten und Kompost und helfen damit sogar beim Humusaufbau im Garten. Die Engerlinge verpuppen sich in einem stabilen Kokon aus Erde und Holzresten. Nach einigen Wochen schlüpft der fertige Käfer, der dann nur noch wenige Monate zu leben hat. Die meiste Zeit seines Lebens verbringt der Rosenkäfer also als Larve unter der Erde.
         </p>
+        <p>
+          Die Larven des Rosenkäfers sind echte Helfer im Boden: Sie leben in totem Pflanzenmaterial und Kompost und verwandeln es in fruchtbare Erde, die Pflanzen mit Nährstoffen versorgt. Weil der Rosenkäfer in Deutschland unter Naturschutz steht, darf man ihn weder fangen noch töten. Wer einen Komposthaufen im Garten hat, gibt ihm und seinen Larven einen wertvollen Lebensraum.
+        </p>
       </div>
     </div>
   );

@@ -35,6 +35,9 @@ export default function Distelfalter() {
         <p>
           Das Weibchen legt einzelne, winzige Eier auf die Oberseite von Blättern, bevorzugt auf Disteln. Nach wenigen Tagen schlüpft eine kleine Raupe, die sich in ein schützendes Blattgespinst einspinnt und dort frisst und wächst. Nach mehreren Häutungen verpuppt sich die Raupe und bildet eine sogenannte Stürzpuppe, die frei an einem Faden hängt. Nach etwa 10 Tagen schlüpft der fertige Schmetterling. Vom Ei bis zum Falter dauert es nur etwa einen Monat.
         </p>
+        <p>
+          Der Distelfalter ist ein wichtiger Bestäuber: Beim Nektartrinken trägt er Blütenstaub von Blüte zu Blüte, sodass Pflanzen Früchte und Samen bilden können. Ohne Bestäuber wie ihn würden viele Wildpflanzen verschwinden. Du kannst ihm helfen, indem du Disteln und andere Wildblumen im Garten stehen lässt — denn genau das sind seine Lieblingspflanzen.
+        </p>
       </div>
     </div>
   );

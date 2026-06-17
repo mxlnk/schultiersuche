@@ -1,4 +1,4 @@
-export type Category = "saeugetiere" | "insekten" | "voegel" | "reptilien" | "fische";
+export type Category = "saeugetiere" | "insekten" | "voegel" | "reptilien" | "fische" | "amphibien" | "wuermer";
 
 export interface Animal {
   name: string;
@@ -12,6 +12,8 @@ export const categories: { id: Category; label: string; emoji: string }[] = [
   { id: "voegel", label: "Vögel", emoji: "🐦" },
   { id: "reptilien", label: "Reptilien", emoji: "🦎" },
   { id: "fische", label: "Fische", emoji: "🐟" },
+  { id: "amphibien", label: "Amphibien", emoji: "🐸" },
+  { id: "wuermer", label: "Würmer", emoji: "🪱" },
 ];
 
 export const animals: Animal[] = [
@@ -29,4 +31,13 @@ export const animals: Animal[] = [
   { name: "Distelfalter", link: "/tier/distelfalter", category: "insekten" },
   { name: "Ameise", link: "/tier/ameise", category: "insekten" },
   { name: "Hirschkäfer", link: "/tier/hirschkaefer", category: "insekten" },
+  { name: "Biene", link: "/tier/biene", category: "insekten" },
+  { name: "Hummel", link: "/tier/hummel", category: "insekten" },
+  { name: "Frosch", link: "/tier/frosch", category: "amphibien" },
+  { name: "Kröte", link: "/tier/kroete", category: "amphibien" },
+  { name: "Graureiher", link: "/tier/graureiher", category: "voegel" },
+  { name: "Höckerschwan", link: "/tier/hoeckerschwan", category: "voegel" },
+  { name: "Stockente", link: "/tier/stockente", category: "voegel" },
+  { name: "Meise", link: "/tier/meise", category: "voegel" },
+  { name: "Regenwurm", link: "/tier/regenwurm", category: "wuermer" },
 ];

@@ -35,6 +35,9 @@ export default function Hirschkaefer() {
         <p>
           Das Weibchen legt seine Eier an die Wurzeln toter oder sterbender Laubbäume, besonders Eichen. Die Larven, dicke weiße Engerlinge, leben im morschen Holz und brauchen erstaunliche 5 bis 8 Jahre für ihre Entwicklung — so lang wie ein Kind von der Einschulung bis zur weiterführenden Schule! Dann verpuppen sie sich in einer Kammer im Boden. Der erwachsene Käfer lebt danach nur wenige Wochen im Sommer. Der Hirschkäfer verbringt also fast sein gesamtes Leben als Larve unter der Erde.
         </p>
+        <p>
+          Der Hirschkäfer ist ein wichtiger „Recycler" des Waldes: Seine Larven zersetzen totes Holz und verwandeln es in fruchtbaren Boden. Weil es immer weniger alte Wälder mit Totholz gibt, ist er selten geworden und steht streng unter Naturschutz. Alte Baumstümpfe und liegendes Totholz im Wald zu belassen ist deshalb eine der wichtigsten Maßnahmen, um den Hirschkäfer zu schützen.
+        </p>
       </div>
     </div>
   );
