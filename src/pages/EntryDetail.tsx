@@ -45,7 +45,7 @@ export default function EntryDetail() {
       <img
         src={import.meta.env.BASE_URL + content.image}
         alt={entry.name}
-        className="w-full rounded-2xl shadow-md mb-8 object-cover max-h-96"
+        className="mx-auto block max-w-full max-h-[28rem] rounded-2xl shadow-md mb-8"
       />
 
       <div className="text-gray-700 text-base md:text-lg leading-relaxed md:leading-loose space-y-4 md:space-y-5">
