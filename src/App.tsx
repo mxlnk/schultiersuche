@@ -1,10 +1,16 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
-import AnimalDetail from "./pages/AnimalDetail";
+import EntryDetail from "./pages/EntryDetail";
 import Impressum from "./pages/Impressum";
 import Lizenzen from "./pages/Lizenzen";
+
+// Alte /tier/-Links (vor der Verallgemeinerung zu /eintrag/) weiterleiten.
+function LegacyTierRedirect() {
+  const { id } = useParams();
+  return <Navigate to={`/eintrag/${id}`} replace />;
+}
 
 export default function App() {
   return (
@@ -13,7 +19,8 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/suche" element={<Search />} />
-          <Route path="/tier/:id" element={<AnimalDetail />} />
+          <Route path="/eintrag/:id" element={<EntryDetail />} />
+          <Route path="/tier/:id" element={<LegacyTierRedirect />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/lizenzen" element={<Lizenzen />} />
         </Route>
