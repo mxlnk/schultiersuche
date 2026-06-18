@@ -5,7 +5,7 @@ import { themes } from "../data/themes";
 
 export default function EntryDetail() {
   const { id } = useParams();
-  const entry = entries.find((e) => e.link === `/tier/${id}`);
+  const entry = entries.find((e) => e.link === `/eintrag/${id}`);
   const content = id ? getContent(id) : undefined;
 
   if (!entry || !content) {

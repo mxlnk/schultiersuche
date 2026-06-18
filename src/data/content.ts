@@ -3,7 +3,7 @@ import type { ThemeName } from "./themes";
 // Inhalt einer Detailseite. Pro Eintrag liegt eine Datei unter
 // src/data/content/<slug>.ts, die ein EntryContent als Default exportiert.
 // Der Dateiname (ohne .ts) ist der Slug und entspricht dem letzten Teil des
-// Eintrags-Links (z. B. /tier/hund -> "hund").
+// Eintrags-Links (z. B. /eintrag/hund -> "hund").
 export interface EntryContent {
   scientificName?: string;
   theme: ThemeName;
