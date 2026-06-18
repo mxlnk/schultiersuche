@@ -77,6 +77,23 @@ export const entries: Entry[] = [
   { name: "Stockente", link: "/eintrag/stockente", category: "voegel", emoji: "🦆" },
   { name: "Meise", link: "/eintrag/meise", category: "voegel", emoji: "🐦" },
   { name: "Regenwurm", link: "/eintrag/regenwurm", category: "wuermer", emoji: "🪱" },
+  // Reptilien
+  { name: "Zauneidechse", link: "/eintrag/zauneidechse", category: "reptilien", emoji: "🦎" },
+  { name: "Blindschleiche", link: "/eintrag/blindschleiche", category: "reptilien", emoji: "🦎" },
+  { name: "Ringelnatter", link: "/eintrag/ringelnatter", category: "reptilien", emoji: "🐍" },
+  { name: "Mauereidechse", link: "/eintrag/mauereidechse", category: "reptilien", emoji: "🦎" },
+  // Fische
+  { name: "Bachforelle", link: "/eintrag/bachforelle", category: "fische", emoji: "🐟" },
+  { name: "Karpfen", link: "/eintrag/karpfen", category: "fische", emoji: "🐟" },
+  { name: "Hecht", link: "/eintrag/hecht", category: "fische", emoji: "🐟" },
+  { name: "Flussbarsch", link: "/eintrag/flussbarsch", category: "fische", emoji: "🐟" },
+  // Amphibien
+  { name: "Feuersalamander", link: "/eintrag/feuersalamander", category: "amphibien", emoji: "🦎" },
+  { name: "Bergmolch", link: "/eintrag/bergmolch", category: "amphibien", emoji: "🦎" },
+  { name: "Laubfrosch", link: "/eintrag/laubfrosch", category: "amphibien", emoji: "🐸" },
+  // Würmer
+  { name: "Kompostwurm", link: "/eintrag/kompostwurm", category: "wuermer", emoji: "🪱" },
+  { name: "Blutegel", link: "/eintrag/blutegel", category: "wuermer", emoji: "🪱" },
   // Pflanzen — wichtig für den Naturschutz
   { name: "Wilde Möhre", link: "/eintrag/wilde-moehre", category: "wildblumen", emoji: "🥕" },
   { name: "Kornblume", link: "/eintrag/kornblume", category: "wildblumen", emoji: "🌸" },
@@ -87,4 +104,25 @@ export const entries: Entry[] = [
   { name: "Schwarzer Holunder", link: "/eintrag/holunder", category: "straeucher", emoji: "🍇" },
   { name: "Weide", link: "/eintrag/weide", category: "baeume", emoji: "🌿" },
   { name: "Schilf", link: "/eintrag/schilf", category: "graeser", emoji: "🌾" },
+  // Weitere Wildblumen
+  { name: "Margerite", link: "/eintrag/margerite", category: "wildblumen", emoji: "🌼" },
+  { name: "Klatschmohn", link: "/eintrag/klatschmohn", category: "wildblumen", emoji: "🌺" },
+  { name: "Löwenzahn", link: "/eintrag/loewenzahn", category: "wildblumen", emoji: "🌻" },
+  // Weitere Kräuter
+  { name: "Spitzwegerich", link: "/eintrag/spitzwegerich", category: "kraeuter", emoji: "🌿" },
+  { name: "Bärlauch", link: "/eintrag/baerlauch", category: "kraeuter", emoji: "🧄" },
+  { name: "Giersch", link: "/eintrag/giersch", category: "kraeuter", emoji: "🌿" },
+  { name: "Gundermann", link: "/eintrag/gundermann", category: "kraeuter", emoji: "🌿" },
+  // Weitere Sträucher
+  { name: "Brombeere", link: "/eintrag/brombeere", category: "straeucher", emoji: "🫐" },
+  // Bäume
+  { name: "Rotbuche", link: "/eintrag/rotbuche", category: "baeume", emoji: "🌳" },
+  { name: "Stiel-Eiche", link: "/eintrag/eiche", category: "baeume", emoji: "🌰" },
+  { name: "Birke", link: "/eintrag/birke", category: "baeume", emoji: "🌳" },
+  { name: "Linde", link: "/eintrag/linde", category: "baeume", emoji: "🌳" },
+  // Weitere Gräser & Schilf
+  { name: "Rohrkolben", link: "/eintrag/rohrkolben", category: "graeser", emoji: "🌾" },
+  { name: "Lieschgras", link: "/eintrag/lieschgras", category: "graeser", emoji: "🌾" },
+  { name: "Flatterbinse", link: "/eintrag/binse", category: "graeser", emoji: "🌾" },
+  { name: "Pfeifengras", link: "/eintrag/pfeifengras", category: "graeser", emoji: "🌾" },
 ];
