@@ -6,6 +6,8 @@ import type { ThemeName } from "./themes";
 // Eintrags-Links (z. B. /eintrag/hund -> "hund").
 export interface EntryContent {
   scientificName?: string;
+  // Untertitel für Einträge ohne wissenschaftlichen Namen (z. B. Musik).
+  subtitle?: string;
   theme: ThemeName;
   image: string;
   paragraphs: string[];

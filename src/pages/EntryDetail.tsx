@@ -40,6 +40,11 @@ export default function EntryDetail() {
             {content.scientificName}
           </p>
         )}
+        {content.subtitle && (
+          <p className={`mt-1 text-base md:text-lg font-semibold ${theme.scientific}`}>
+            {content.subtitle}
+          </p>
+        )}
       </div>
 
       <img
