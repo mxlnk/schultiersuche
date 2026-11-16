@@ -54,9 +54,14 @@ export default function Search() {
 
   const lowerQuery = query.toLowerCase();
 
-  const exactCategoryMatches = query
-    ? categories.filter((c) => c.label.toLowerCase().includes(lowerQuery))
-    : [];
+  // Passt die Suche genau auf eine Kategorie (z. B. Klick auf "Osteuropa"),
+  // zählt nur diese – sonst träfe "Osteuropa" auch "Südosteuropa".
+  const sameLabel = categories.filter((c) => c.label.toLowerCase() === lowerQuery);
+  const exactCategoryMatches = !query
+    ? []
+    : sameLabel.length > 0
+      ? sameLabel
+      : categories.filter((c) => c.label.toLowerCase().includes(lowerQuery));
   const exactResults = entries.filter((entry) =>
     entry.name.toLowerCase().includes(lowerQuery) ||
     exactCategoryMatches.some((c) => c.id === entry.category)
@@ -91,7 +96,15 @@ export default function Search() {
             className={`block border-2 rounded-2xl p-5 md:p-6 transition-all ${cardColors[i % cardColors.length]}`}
           >
             <div className="flex items-center gap-3">
-              <span className="text-3xl md:text-4xl">{entry.emoji}</span>
+              {entry.icon ? (
+                <img
+                  src={import.meta.env.BASE_URL + entry.icon}
+                  alt=""
+                  className="h-8 md:h-10 w-12 md:w-14 object-contain shrink-0"
+                />
+              ) : (
+                <span className="text-3xl md:text-4xl">{entry.emoji}</span>
+              )}
               <h2 className="text-xl md:text-2xl font-bold text-gray-800">
                 {entry.name}
               </h2>

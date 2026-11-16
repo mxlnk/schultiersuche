@@ -8,6 +8,8 @@ const kingdomColors: Record<EntryType, string> = {
   tier: "bg-amber-100 border-amber-300 hover:bg-amber-200 text-amber-800",
   pflanze: "bg-emerald-100 border-emerald-300 hover:bg-emerald-200 text-emerald-800",
   musik: "bg-violet-100 border-violet-300 hover:bg-violet-200 text-violet-800",
+  land: "bg-sky-100 border-sky-300 hover:bg-sky-200 text-sky-800",
+  mensch: "bg-rose-100 border-rose-300 hover:bg-rose-200 text-rose-800",
 };
 
 const buttonColors = [
