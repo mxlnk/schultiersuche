@@ -26,7 +26,7 @@ export default function Home() {
         <Wordmark />
       </div>
       <p className="text-gray-500 text-lg md:text-xl mb-10 font-semibold">
-        Entdecke Tiere und Pflanzen!
+        Entdecke die Welt!
       </p>
       <SearchBar autoFocus />
 

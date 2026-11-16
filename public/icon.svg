@@ -9,17 +9,15 @@
   <!-- full-bleed background (maskable-safe) -->
   <rect width="512" height="512" fill="url(#bg)"/>
   <!-- playful dots -->
-  <circle cx="96" cy="110" r="14" fill="#fbbf24"/>
+  <circle cx="96" cy="110" r="14" fill="#fb7185"/>
   <circle cx="430" cy="150" r="11" fill="#34d399"/>
   <circle cx="400" cy="400" r="13" fill="#f472b6"/>
   <circle cx="110" cy="410" r="10" fill="#38bdf8"/>
-  <!-- leaf inside the lens -->
+  <!-- star inside the lens -->
   <g>
     <circle cx="222" cy="222" r="118" fill="#ffffff"/>
     <circle cx="222" cy="222" r="118" fill="none" stroke="#a78bfa" stroke-width="22"/>
-    <path d="M222 158c-44 12-70 48-70 92 0 6 1 12 2 18 6-44 34-74 74-86 4-1 6-5 5-9-1-4-7-6-11-15z" fill="#34d399" opacity="0"/>
-    <path d="M170 268c0-50 38-92 92-100 6-1 11 5 9 11-14 50-52 84-94 96-4 1-7-3-7-7z" fill="#34d399"/>
-    <path d="M262 168c-30 18-52 46-62 80" fill="none" stroke="#059669" stroke-width="9" stroke-linecap="round"/>
+    <path d="M222 154 240.2 200.9 290.5 203.8 251.5 235.6 264.3 284.2 222 257 179.7 284.2 192.5 235.6 153.5 203.8 203.8 200.9Z" fill="#fbbf24" stroke="#fbbf24" stroke-width="16" stroke-linejoin="round"/>
   </g>
   <!-- magnifier handle -->
   <rect x="300" y="300" width="150" height="46" rx="23" transform="rotate(45 300 300)" fill="#a78bfa"/>
