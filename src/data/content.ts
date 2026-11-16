@@ -53,6 +53,14 @@ export interface EntryContent {
   // Slugs verwandter Einträge ("Mehr dazu"), z. B. das Land einer Person.
   siehe?: string[];
   paragraphs: string[];
+  // Optionale Übersicht mit Links zu anderen Einträgen (Slugs), z. B. die
+  // bekannten Werke eines Komponisten. Wird unter dem Text angezeigt.
+  // Die Gruppen lassen sich wie Wikipedia-Abschnitte ein- und ausklappen.
+  related?: {
+    heading: string;
+    intro?: string;
+    groups: { title: string; slugs: string[] }[];
+  };
 }
 
 const modules = import.meta.glob<{ default: EntryContent }>("./content/*.ts", {

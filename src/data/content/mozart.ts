@@ -11,6 +11,34 @@ const content: EntryContent = {
     "Später zog Mozart nach Wien und arbeitete dort als freier Komponist. Das heißt, er hatte keinen festen Chef, sondern schrieb Musik für Aufträge und Konzerte. Er heiratete Constanze, und die beiden hatten Kinder. Mozart schrieb über 600 Werke: Opern, Sinfonien und Konzerte. Eine Sinfonie ist ein langes Stück für ein großes Orchester. Alle Werke wurden später im Köchelverzeichnis geordnet, deshalb steht hinter vielen Titeln die Abkürzung „KV“ mit einer Nummer. Mozart starb am 5. Dezember 1791 in Wien. Er wurde nur 35 Jahre alt, aber seine Musik lebt bis heute weiter.",
     "Berühmt sind zum Beispiel die Oper „Die Zauberflöte“, „Eine kleine Nachtmusik“ und das Requiem. Ein Requiem ist eine ernste Musik zum Abschied von einem Menschen. Hör-Tipp: Hör dir den Anfang von „Eine kleine Nachtmusik“ an. Achte darauf, wie die Melodie wie eine Frage beginnt und wie eine Antwort weitergeht, fast wie ein Gespräch.",
   ],
+  related: {
+    heading: "Bekannte Werke",
+    intro: "Tippe auf eine Überschrift, um die Liste auf- oder zuzuklappen:",
+    groups: [
+      {
+        title: "Opern",
+        slugs: ["zauberfloete", "figaro", "don-giovanni", "entfuehrung-aus-dem-serail"],
+      },
+      {
+        title: "Musik für Orchester",
+        slugs: [
+          "kleine-nachtmusik",
+          "sinfonie-40",
+          "jupiter-sinfonie",
+          "klavierkonzert-21",
+          "klarinettenkonzert",
+        ],
+      },
+      {
+        title: "Klaviermusik",
+        slugs: ["tuerkischer-marsch", "ah-vous-dirai-je-maman"],
+      },
+      {
+        title: "Kirchenmusik",
+        slugs: ["mozart-requiem", "ave-verum"],
+      },
+    ],
+  },
 };
 
 export default content;

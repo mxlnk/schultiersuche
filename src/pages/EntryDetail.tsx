@@ -21,7 +21,7 @@ export default function EntryDetail() {
   }
 
   const theme = themes[content.theme];
-  const related = (content.siehe ?? []).flatMap((slug) =>
+  const seeAlso = (content.siehe ?? []).flatMap((slug) =>
     entries.filter((e) => e.link === `/eintrag/${slug}`),
   );
 
@@ -75,11 +75,56 @@ export default function EntryDetail() {
 
       {content.land && <CountryHighlights land={content.land} theme={theme} />}
 
-      {related.length > 0 && (
+      {content.related && (
+        <section className="mt-10">
+          <h2 className={`text-2xl md:text-3xl font-black mb-2 ${theme.heading}`}>
+            {content.related.heading}
+          </h2>
+          {content.related.intro && (
+            <p className="text-gray-700 text-base md:text-lg mb-4">{content.related.intro}</p>
+          )}
+          <div className="border-t border-gray-300">
+            {content.related.groups.map((group) => (
+              <details key={group.title} className="group border-b border-gray-300">
+                <summary className="flex cursor-pointer list-none items-center gap-2 py-3 text-xl md:text-2xl font-bold text-gray-800 [&::-webkit-details-marker]:hidden">
+                  <svg
+                    className="h-5 w-5 shrink-0 text-gray-500 transition-transform group-open:rotate-180"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                  </svg>
+                  {group.title}
+                </summary>
+                <ul className="list-disc pl-10 pb-4 space-y-1 text-base md:text-lg">
+                  {group.slugs.map((slug) => {
+                    const target = entries.find((e) => e.link === `/eintrag/${slug}`);
+                    if (!target) return null;
+                    return (
+                      <li key={slug}>
+                        <Link
+                          to={target.link}
+                          className="text-blue-600 underline hover:text-blue-800 visited:text-purple-700"
+                        >
+                          {target.name}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {seeAlso.length > 0 && (
         <section className="mt-10">
           <h2 className={`text-2xl md:text-3xl font-black mb-4 ${theme.heading}`}>Mehr dazu</h2>
           <div className="flex flex-wrap gap-3">
-            {related.map((r) => (
+            {seeAlso.map((r) => (
               <Link
                 key={r.link}
                 to={r.link}
