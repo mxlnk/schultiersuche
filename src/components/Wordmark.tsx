@@ -1,4 +1,4 @@
-const WORDMARK = "Schul-Natur-Wiki";
+const WORDMARK = "Kinderwiki";
 
 const colors = [
   "text-rose-500",
