@@ -13,7 +13,12 @@ export interface EntryContent {
   paragraphs: string[];
   // Optionale Übersicht mit Links zu anderen Einträgen (Slugs), z. B. die
   // bekannten Werke eines Komponisten. Wird unter dem Text angezeigt.
-  related?: { heading: string; intro?: string; slugs: string[] };
+  // Die Gruppen lassen sich wie Wikipedia-Abschnitte ein- und ausklappen.
+  related?: {
+    heading: string;
+    intro?: string;
+    groups: { title: string; slugs: string[] }[];
+  };
 }
 
 const modules = import.meta.glob<{ default: EntryContent }>("./content/*.ts", {

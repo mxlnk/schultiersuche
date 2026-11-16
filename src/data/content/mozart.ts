@@ -13,21 +13,30 @@ const content: EntryContent = {
   ],
   related: {
     heading: "Bekannte Werke",
-    intro: "Tippe auf ein Stück, um mehr darüber zu erfahren:",
-    slugs: [
-      "zauberfloete",
-      "figaro",
-      "don-giovanni",
-      "entfuehrung-aus-dem-serail",
-      "kleine-nachtmusik",
-      "sinfonie-40",
-      "jupiter-sinfonie",
-      "klavierkonzert-21",
-      "klarinettenkonzert",
-      "tuerkischer-marsch",
-      "ah-vous-dirai-je-maman",
-      "mozart-requiem",
-      "ave-verum",
+    intro: "Tippe auf eine Überschrift, um die Liste auf- oder zuzuklappen:",
+    groups: [
+      {
+        title: "Opern",
+        slugs: ["zauberfloete", "figaro", "don-giovanni", "entfuehrung-aus-dem-serail"],
+      },
+      {
+        title: "Musik für Orchester",
+        slugs: [
+          "kleine-nachtmusik",
+          "sinfonie-40",
+          "jupiter-sinfonie",
+          "klavierkonzert-21",
+          "klarinettenkonzert",
+        ],
+      },
+      {
+        title: "Klaviermusik",
+        slugs: ["tuerkischer-marsch", "ah-vous-dirai-je-maman"],
+      },
+      {
+        title: "Kirchenmusik",
+        slugs: ["mozart-requiem", "ave-verum"],
+      },
     ],
   },
 };
