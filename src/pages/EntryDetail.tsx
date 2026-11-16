@@ -58,6 +58,33 @@ export default function EntryDetail() {
           <p key={i}>{p}</p>
         ))}
       </div>
+
+      {content.related && (
+        <section className="mt-10">
+          <h2 className={`text-2xl md:text-3xl font-black mb-2 ${theme.heading}`}>
+            {content.related.heading}
+          </h2>
+          {content.related.intro && (
+            <p className="text-gray-700 text-base md:text-lg mb-4">{content.related.intro}</p>
+          )}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {content.related.slugs.map((slug) => {
+              const target = entries.find((e) => e.link === `/eintrag/${slug}`);
+              if (!target) return null;
+              return (
+                <Link
+                  key={slug}
+                  to={target.link}
+                  className={`flex items-center gap-3 rounded-2xl px-4 py-3 font-bold text-base md:text-lg transition-colors ${theme.backLink}`}
+                >
+                  <span className="text-2xl md:text-3xl">{target.emoji}</span>
+                  {target.name}
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </div>
   );
 }
