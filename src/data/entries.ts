@@ -58,7 +58,7 @@ export const categories: Category[] = [
   // Musik
   { id: "musikarten", label: "Musikarten", emoji: "🎼", type: "musik" },
   { id: "komponisten", label: "Komponisten", emoji: "🎹", type: "musik" },
-  { id: "mozart-werke", label: "Stücke von Mozart", emoji: "🎶", type: "musik" },
+  { id: "mozart-werke", label: "Stücke", emoji: "🎶", type: "musik" },
 ];
 
 export const entries: Entry[] = [
