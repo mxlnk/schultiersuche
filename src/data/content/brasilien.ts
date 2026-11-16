@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Olá (sprich: o-la) oder Oi (sprich: oi)",
     essen: "Feijoada (Bohnen mit Fleisch), Käsebrötchen, Maniok und Brigadeiros (Schokokugeln)",
     bekanntFuer: [
-      "Fußball",
-      "Karneval in Rio",
-      "Amazonas-Regenwald",
-      "Copacabana",
-      "Samba und Capoeira",
-      "Zuckerhut",
+      { label: "Fußball", slug: "fussball" },
+      { label: "Karneval in Rio", slug: "karneval-in-rio" },
+      { label: "Amazonas-Regenwald", slug: "amazonas-regenwald" },
+      { label: "Copacabana", slug: "copacabana" },
+      { label: "Samba und Capoeira", slug: "samba-und-capoeira" },
+      { label: "Zuckerhut", slug: "zuckerhut" },
     ],
     personen: [
       { name: "Pelé", info: "Der Fußballer wurde als einziger Spieler dreimal Weltmeister und gilt als einer der besten aller Zeiten." },

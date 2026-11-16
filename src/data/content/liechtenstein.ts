@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Grüezi (sprich: grü-e-tsi). Unter Freunden sagt man „Hoi“",
     essen: "Käsknöpfle (Käsespätzle), Ribel aus Maisgrieß und Bergkäse",
     bekanntFuer: [
-      "Eines der kleinsten Länder",
-      "Schloss Vaduz",
-      "Fürstenfamilie",
-      "Briefmarken",
-      "Skifahren und Wandern",
+      { label: "Eines der kleinsten Länder", slug: "zwergstaaten" },
+      { label: "Schloss Vaduz", slug: "schloss-vaduz" },
+      { label: "Fürstenfamilie", slug: "fuerstenfamilie-liechtenstein" },
+      { label: "Briefmarken", slug: "briefmarken" },
+      { label: "Skifahren und Wandern", slug: "skifahren" },
     ],
     personen: [
       { name: "Hanni Wenzel", info: "Die Skirennfahrerin aus Liechtenstein gewann 1980 bei den Olympischen Spielen zwei Goldmedaillen." },

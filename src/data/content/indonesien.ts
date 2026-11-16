@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Halo (sprich: ha-lo) – oder „Selamat pagi“ für „Guten Morgen“",
     essen: "Nasi Goreng (gebratener Reis), Satay-Spieße, Tempeh und Bakso",
     bekanntFuer: [
-      "Komodowarane",
-      "Orang-Utans",
-      "Viele Vulkane",
-      "Urlaubsinsel Bali",
-      "Gamelan-Musik",
-      "Batik-Stoffe",
+      { label: "Komodowarane", slug: "komodowaran" },
+      { label: "Orang-Utans", slug: "orang-utan" },
+      { label: "Viele Vulkane", slug: "vulkane" },
+      { label: "Urlaubsinsel Bali", slug: "bali" },
+      { label: "Gamelan-Musik", slug: "gamelan" },
+      { label: "Batik-Stoffe", slug: "batik" },
     ],
     personen: [
       {

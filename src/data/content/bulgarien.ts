@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Здравей (sprich: sdra-wej)",
     essen: "Banitza (Käse-Blätterteig), Schopska-Salat, Tarator (kalte Gurkensuppe) und Joghurt",
     bekanntFuer: [
-      "Joghurt",
-      "Rosenöl",
-      "Kyrillische Schrift",
-      "Schwarzes Meer",
-      "Kloster Rila",
-      "Martenitza-Bänder",
+      { label: "Joghurt", slug: "bulgarischer-joghurt" },
+      { label: "Rosenöl", slug: "rosenoel" },
+      { label: "Kyrillische Schrift", slug: "kyrillische-schrift" },
+      { label: "Schwarzes Meer", slug: "schwarzes-meer" },
+      { label: "Kloster Rila", slug: "kloster-rila" },
+      { label: "Martenitza-Bänder", slug: "martenitza" },
     ],
     personen: [
       { name: "Grigor Dimitrov", info: "Tennisspieler, der zu den besten der Welt gehört." },

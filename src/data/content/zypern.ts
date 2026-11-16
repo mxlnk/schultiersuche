@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Γεια σου (sprich: ja-ßu)",
     essen: "Halloumi-Käse, Souvlaki-Spieße, Meze (viele kleine Gerichte) und Loukoumades",
     bekanntFuer: [
-      "Halloumi-Käse",
-      "Aphrodite-Sage",
-      "Meeresschildkröten",
-      "Badestrände",
-      "Skifahren im Troodos",
-      "Kupfer",
+      { label: "Halloumi-Käse", slug: "halloumi" },
+      { label: "Aphrodite-Sage", slug: "aphrodite" },
+      { label: "Meeresschildkröten", slug: "meeresschildkroeten" },
+      { label: "Badestrände", slug: "straende-zypern" },
+      { label: "Skifahren im Troodos", slug: "troodos" },
+      { label: "Kupfer", slug: "kupfer-zypern" },
     ],
     personen: [
       { name: "Zenon von Kition", info: "Ein Denker im alten Griechenland, der auf Zypern geboren wurde und eine eigene Philosophenschule gründete." },

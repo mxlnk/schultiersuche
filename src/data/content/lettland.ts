@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Sveiki (sprich: swei-ki)",
     essen: "Roggenbrot, graue Erbsen mit Speck, Kartoffeln und Piragi (gefüllte Hefetaschen)",
     bekanntFuer: [
-      "Bernstein",
-      "Jugendstil-Häuser",
-      "Sängerfeste",
-      "Mittsommerfest Jāņi",
-      "Wälder",
-      "Basketball",
+      { label: "Bernstein", slug: "bernstein" },
+      { label: "Jugendstil-Häuser", slug: "jugendstil-riga" },
+      { label: "Sängerfeste", slug: "saengerfeste" },
+      { label: "Mittsommerfest Jāņi", slug: "jani" },
+      { label: "Wälder", slug: "waelder-lettland" },
+      { label: "Basketball", slug: "basketball" },
     ],
     personen: [
       { name: "Kristaps Porziņģis", info: "Der Basketballspieler ist über 2 Meter groß und spielte in der amerikanischen NBA." },

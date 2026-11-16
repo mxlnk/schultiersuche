@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "G'day (sprich: gi-dei)",
     essen: "Fleischpastete, Lamingtons (Schokokuchen), Vegemite-Brot und Anzac-Kekse",
     bekanntFuer: [
-      "Känguru und Koala",
-      "Great Barrier Reef",
-      "Opernhaus in Sydney",
-      "Outback und Uluru",
-      "Surfen und Strände",
+      { label: "Känguru und Koala", slug: "kaenguru-und-koala" },
+      { label: "Great Barrier Reef", slug: "great-barrier-reef" },
+      { label: "Opernhaus in Sydney", slug: "opernhaus-sydney" },
+      { label: "Outback und Uluru", slug: "uluru" },
+      { label: "Surfen und Strände", slug: "surfen-australien" },
     ],
     personen: [
       { name: "Cathy Freeman", info: "Die Läuferin mit Aborigine-Wurzeln gewann 2000 in Sydney Olympia-Gold über 400 Meter." },

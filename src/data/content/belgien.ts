@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Signal de Botrange (694 m)",
     hallo: "Hallo (sprich: ha-lo) auf Niederländisch, Bonjour (sprich: bon-schuur) auf Französisch",
     essen: "Pommes frites mit Mayo, knusprige Waffeln, Pralinen und Schokolade",
-    bekanntFuer: ["Schokolade und Pralinen", "Belgische Waffeln", "Pommes frites", "Die Schlümpfe", "Tim und Struppi", "Das Atomium"],
+    bekanntFuer: [
+      { label: "Schokolade und Pralinen", slug: "belgische-schokolade" },
+      { label: "Belgische Waffeln", slug: "belgische-waffeln" },
+      { label: "Pommes frites", slug: "pommes-frites" },
+      { label: "Die Schlümpfe", slug: "schluempfe" },
+      { label: "Tim und Struppi", slug: "tim-und-struppi" },
+      { label: "Das Atomium", slug: "atomium" },
+    ],
     personen: [
       { name: "Hergé", info: "Er hat die Comics von „Tim und Struppi“ gezeichnet, in denen ein junger Reporter und sein Hund Abenteuer erleben." },
       { name: "Peyo", info: "Er erfand die kleinen blauen Schlümpfe, die in Pilzhäusern wohnen." },

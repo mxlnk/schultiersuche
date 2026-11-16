@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hei oder Moi (sprich: hei, moi)",
     essen: "Karelische Piroggen, Lachssuppe, Blaubeeren und Lakritz",
     bekanntFuer: [
-      "Mumins",
-      "Weihnachtsmann in Lappland",
-      "Sauna",
-      "Tausende Seen",
-      "Angry Birds",
-      "Eishockey",
+      { label: "Mumins", slug: "mumins" },
+      { label: "Weihnachtsmann in Lappland", slug: "weihnachtsmann-lappland" },
+      { label: "Sauna", slug: "sauna" },
+      { label: "Tausende Seen", slug: "finnische-seen" },
+      { label: "Angry Birds", slug: "angry-birds" },
+      { label: "Eishockey", slug: "eishockey" },
     ],
     personen: [
       { name: "Tove Jansson", info: "Die Künstlerin erfand die Mumins, die lustigen Trolle, die wie kleine Nilpferde aussehen." },

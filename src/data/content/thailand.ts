@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Sawatdii – สวัสดี (sprich: sa-wat-di)",
     essen: "Pad Thai (gebratene Nudeln), Reis, Mango mit Klebreis und Currys",
     bekanntFuer: [
-      "Elefanten",
-      "Goldene Tempel",
-      "Traumstrände",
-      "Thaiboxen",
-      "Tuk-Tuks",
-      "Wasserfest Songkran",
+      { label: "Elefanten", slug: "asiatischer-elefant" },
+      { label: "Goldene Tempel", slug: "goldene-tempel" },
+      { label: "Traumstrände", slug: "straende-thailand" },
+      { label: "Thaiboxen", slug: "thaiboxen" },
+      { label: "Tuk-Tuks", slug: "tuk-tuk" },
+      { label: "Wasserfest Songkran", slug: "songkran" },
     ],
     personen: [
       {

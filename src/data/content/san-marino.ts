@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Ciao (sprich: tschau)",
     essen: "Piadina (Fladenbrot), Pasta mit Fleischsoße und der süße Kuchen Torta Titano",
     bekanntFuer: [
-      "Drei Türme",
-      "Monte Titano",
-      "Uralte Republik",
-      "Burgen und Mauern",
-      "Briefmarken",
-      "Weltkulturerbe",
+      { label: "Drei Türme", slug: "drei-tuerme-san-marino" },
+      { label: "Monte Titano", slug: "monte-titano" },
+      { label: "Uralte Republik", slug: "aelteste-republik" },
+      { label: "Burgen und Mauern", slug: "burgen" },
+      { label: "Briefmarken", slug: "briefmarken" },
+      { label: "Weltkulturerbe", slug: "unesco-welterbe" },
     ],
     personen: [
       { name: "Marinus", info: "Ein Steinmetz aus der Zeit der Römer. Er soll um das Jahr 301 das Land gegründet haben, das nach ihm benannt ist." },

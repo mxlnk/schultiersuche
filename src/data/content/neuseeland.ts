@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Kia ora (sprich: ki-a o-ra) oder Hello",
     essen: "Fish and Chips, Lammfleisch, Kiwis (die Früchte) und Pavlova-Torte",
     bekanntFuer: [
-      "Kiwi-Vogel",
-      "Schafe",
-      "All Blacks und Haka",
-      "Herr der Ringe",
-      "Fjorde und Vulkane",
+      { label: "Kiwi-Vogel", slug: "kiwi" },
+      { label: "Schafe", slug: "schafe" },
+      { label: "All Blacks und Haka", slug: "all-blacks-und-haka" },
+      { label: "Herr der Ringe", slug: "herr-der-ringe" },
+      { label: "Fjorde und Vulkane", slug: "fjorde-und-vulkane-neuseeland" },
     ],
     personen: [
       { name: "Edmund Hillary", info: "Er stand 1953 gemeinsam mit Tenzing Norgay als Erster auf dem Mount Everest." },

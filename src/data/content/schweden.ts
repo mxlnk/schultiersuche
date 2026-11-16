@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hej (sprich: hei)",
     essen: "Köttbullar (Fleischbällchen) mit Preiselbeeren, Knäckebrot, Lachs und Zimtschnecken",
     bekanntFuer: [
-      "Pippi Langstrumpf",
-      "Elche",
-      "IKEA",
-      "Nobelpreis",
-      "Zimtschnecken",
-      "Mittsommerfest",
+      { label: "Pippi Langstrumpf", slug: "pippi-langstrumpf" },
+      { label: "Elche", slug: "elch" },
+      { label: "IKEA", slug: "ikea" },
+      { label: "Nobelpreis", slug: "nobelpreis" },
+      { label: "Zimtschnecken", slug: "zimtschnecke" },
+      { label: "Mittsommerfest", slug: "mittsommerfest" },
     ],
     personen: [
       { name: "Astrid Lindgren", info: "Die Schriftstellerin erfand Pippi Langstrumpf, Michel aus Lönneberga und Karlsson vom Dach." },

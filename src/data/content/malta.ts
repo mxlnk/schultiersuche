@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Bonġu (sprich: bon-dschu)",
     essen: "Pastizzi (Blätterteigtaschen), Ftira-Brot, Kaninchen-Eintopf und süße Imqaret",
     bekanntFuer: [
-      "Ritter und Festungen",
-      "Bunte Fischerboote",
-      "Blaue Lagune",
-      "Uralte Tempel",
-      "Viel Sonne",
-      "Maltesisch",
+      { label: "Ritter und Festungen", slug: "malteserritter" },
+      { label: "Bunte Fischerboote", slug: "luzzu" },
+      { label: "Blaue Lagune", slug: "blaue-lagune-malta" },
+      { label: "Uralte Tempel", slug: "tempel-malta" },
+      { label: "Viel Sonne", slug: "sonne-malta" },
+      { label: "Maltesisch", slug: "maltesisch" },
     ],
     personen: [
       { name: "Caravaggio", info: "Ein berühmter italienischer Maler, der einige Zeit auf Malta lebte und dort große Bilder malte." },

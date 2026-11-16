@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Vaalserberg (322 m)",
     hallo: "Hallo (sprich: ha-lo) oder Goedendag (sprich: chu-den-dach)",
     essen: "Pommes mit Mayo, Stroopwafels, Pfannkuchen und Käse wie Gouda",
-    bekanntFuer: ["Windmühlen", "Tulpen", "Fahrräder", "Käse", "Holzschuhe", "Deiche und Kanäle"],
+    bekanntFuer: [
+      { label: "Windmühlen", slug: "windmuehlen" },
+      { label: "Tulpen", slug: "tulpen" },
+      { label: "Fahrräder", slug: "fahrrad" },
+      { label: "Käse", slug: "hollaendischer-kaese" },
+      { label: "Holzschuhe", slug: "holzschuhe" },
+      { label: "Deiche und Kanäle", slug: "deiche-und-kanaele" },
+    ],
     personen: [
       { name: "Vincent van Gogh", info: "Er war ein Maler, der Bilder wie die „Sonnenblumen“ und die „Sternennacht“ in leuchtenden Farben gemalt hat." },
       { name: "Dick Bruna", info: "Er erfand das kleine weiße Kaninchen Miffy, das in vielen Kinderbüchern vorkommt." },

@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Ahoj (sprich: a-hoj). Höflich sagt man „Dobrý den“ (sprich: dobri den)",
     essen: "Knödel, Gulasch, Kartoffelsuppe und süße Buchteln",
     bekanntFuer: [
-      "Der kleine Maulwurf",
-      "Prag, die Stadt der Türme",
-      "Burgen und Schlösser",
-      "Böhmisches Glas",
-      "Eishockey",
-      "Das Wort „Roboter“",
+      { label: "Der kleine Maulwurf", slug: "der-kleine-maulwurf" },
+      { label: "Prag, die Stadt der Türme", slug: "prag" },
+      { label: "Burgen und Schlösser", slug: "burgen" },
+      { label: "Böhmisches Glas", slug: "boehmisches-glas" },
+      { label: "Eishockey", slug: "eishockey" },
+      { label: "Das Wort „Roboter“", slug: "roboter" },
     ],
     personen: [
       { name: "Zdeněk Miler", info: "Der Zeichner erfand den „kleinen Maulwurf“, eine Trickfilmfigur, die Kinder auf der ganzen Welt lieben." },

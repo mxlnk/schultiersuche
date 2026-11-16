@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Konnichiwa – こんにちは (sprich: ko-ni-tschi-wa)",
     essen: "Sushi, Reis mit Fisch, Ramen-Nudelsuppe und Onigiri (Reisbällchen)",
     bekanntFuer: [
-      "Pokémon und Super Mario",
-      "Anime und Manga",
-      "Kirschblüten",
-      "Schnellzug Shinkansen",
-      "Origami",
-      "Sushi",
+      { label: "Pokémon und Super Mario", slug: "pokemon-und-super-mario" },
+      { label: "Anime und Manga", slug: "anime-und-manga" },
+      { label: "Kirschblüten", slug: "kirschbluete" },
+      { label: "Schnellzug Shinkansen", slug: "shinkansen" },
+      { label: "Origami", slug: "origami" },
+      { label: "Sushi", slug: "sushi" },
     ],
     personen: [
       {

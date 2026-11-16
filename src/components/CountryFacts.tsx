@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 import { entries, type Entry } from "../data/entries";
 import CountryMap from "./CountryMap";
 
-// Gibt es zu einer Hauptstadt oder Person einen eigenen Artikel, verlinken wir ihn.
+// Gibt es zu einer Hauptstadt, Person oder einem Stichwort einen eigenen Artikel,
+// verlinken wir ihn.
 const capitals = new Map<string, Entry>();
 const people = new Map<string, Entry>();
+const bySlug = new Map<string, Entry>();
 for (const e of entries) {
+  bySlug.set(e.link.slice("/eintrag/".length), e);
   if (e.category === "hauptstaedte") capitals.set(e.name, e);
   else if (!e.icon) people.set(e.name, e);
 }
@@ -102,14 +105,27 @@ export function CountryHighlights({ land, theme }: Omit<CountryFactsProps, "name
             Dafür ist das Land bekannt
           </h2>
           <ul className="flex flex-wrap gap-2.5">
-            {land.bekanntFuer.map((b) => (
-              <li
-                key={b}
-                className={`px-4 py-2 rounded-full font-bold text-base ${theme.backLink.replace(/hover:\S+\s?/, "")}`}
-              >
-                {b}
-              </li>
-            ))}
+            {land.bekanntFuer.map((b) => {
+              const link = bySlug.get(b.slug)?.link;
+              return (
+                <li key={b.label}>
+                  {link ? (
+                    <Link
+                      to={link}
+                      className={`block px-4 py-2 rounded-full font-bold text-base transition-colors ${theme.backLink}`}
+                    >
+                      {b.label} &rarr;
+                    </Link>
+                  ) : (
+                    <span
+                      className={`block px-4 py-2 rounded-full font-bold text-base ${theme.backLink.replace(/hover:\S+\s?/, "")}`}
+                    >
+                      {b.label}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}

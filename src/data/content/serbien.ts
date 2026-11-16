@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Zdravo (sprich: sdra-wo)",
     essen: "Ćevapi, Pljeskavica (Hackfleisch-Burger), Ajvar (Paprikacreme) und Palatschinken",
     bekanntFuer: [
-      "Nikola Tesla",
-      "Tennisstar Đoković",
-      "Himbeeren",
-      "Die Donau",
-      "Zwei Alphabete",
+      { label: "Nikola Tesla", slug: "nikola-tesla" },
+      { label: "Tennisstar Đoković", slug: "novak-djokovic" },
+      { label: "Himbeeren", slug: "himbeeren" },
+      { label: "Die Donau", slug: "donau" },
+      { label: "Zwei Alphabete", slug: "zwei-alphabete-serbien" },
     ],
     personen: [
       { name: "Nikola Tesla", info: "Erfinder, der im heutigen Kroatien als Kind serbischer Eltern geboren wurde und die Elektrotechnik weiterbrachte." },

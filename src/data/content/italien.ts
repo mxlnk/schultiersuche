@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Ciao (sprich: tschau)",
     essen: "Pizza, Spaghetti, Lasagne und leckeres Eis (Gelato)",
     bekanntFuer: [
-      "Pizza und Pasta",
-      "Kolosseum in Rom",
-      "Venedig mit Kanälen",
-      "Vulkane wie der Vesuv",
-      "Fußball",
-      "Pinocchio",
+      { label: "Pizza und Pasta", slug: "pizza-und-pasta" },
+      { label: "Kolosseum in Rom", slug: "kolosseum" },
+      { label: "Venedig mit Kanälen", slug: "venedig" },
+      { label: "Vulkane wie der Vesuv", slug: "vesuv" },
+      { label: "Fußball", slug: "fussball" },
+      { label: "Pinocchio", slug: "pinocchio" },
     ],
     personen: [
       { name: "Leonardo da Vinci", info: "Er war Maler und Erfinder und malte die berühmte Mona Lisa." },

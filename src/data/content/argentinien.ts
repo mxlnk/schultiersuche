@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hola (sprich: oh-la, das h hört man nicht)",
     essen: "Asado (Grillfleisch), Empanadas (gefüllte Teigtaschen), Alfajores und Dulce de Leche",
     bekanntFuer: [
-      "Fußball",
-      "Tango",
-      "Patagonien",
-      "Pinguine und Wale",
-      "Gauchos (Cowboys)",
-      "Gletscher",
+      { label: "Fußball", slug: "fussball" },
+      { label: "Tango", slug: "tango" },
+      { label: "Patagonien", slug: "patagonien" },
+      { label: "Pinguine und Wale", slug: "pinguine-und-wale" },
+      { label: "Gauchos (Cowboys)", slug: "gauchos" },
+      { label: "Gletscher", slug: "gletscher" },
     ],
     personen: [
       { name: "Lionel Messi", info: "Der Fußballer aus Rosario wurde 2022 mit Argentinien Weltmeister und gilt als einer der besten Spieler der Welt." },

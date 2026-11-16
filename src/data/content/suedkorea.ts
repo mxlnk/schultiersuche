@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Annyeonghaseyo – 안녕하세요 (sprich: an-njong-ha-se-jo)",
     essen: "Kimchi (scharfer Kohl), Bibimbap, Reis und Grillfleisch (Bulgogi)",
     bekanntFuer: [
-      "K-Pop",
-      "Kimchi",
-      "Taekwondo",
-      "Die Schrift Hangul",
-      "Smartphones und Technik",
-      "Bunte Hanbok-Kleider",
+      { label: "K-Pop", slug: "k-pop" },
+      { label: "Kimchi", slug: "kimchi" },
+      { label: "Taekwondo", slug: "taekwondo" },
+      { label: "Die Schrift Hangul", slug: "hangul" },
+      { label: "Smartphones und Technik", slug: "technik-suedkorea" },
+      { label: "Bunte Hanbok-Kleider", slug: "hanbok" },
     ],
     personen: [
       {

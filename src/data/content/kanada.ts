@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hello (sprich: hä-loh) oder Bonjour (sprich: bon-schuur)",
     essen: "Ahornsirup, Pfannkuchen, Poutine (Pommes mit Käse und Soße) und Lachs",
     bekanntFuer: [
-      "Ahornblatt und Ahornsirup",
-      "Eishockey",
-      "Rocky Mountains",
-      "Niagarafälle",
-      "Eisbären und Elche",
-      "Nordlichter",
+      { label: "Ahornblatt und Ahornsirup", slug: "ahornsirup" },
+      { label: "Eishockey", slug: "eishockey" },
+      { label: "Rocky Mountains", slug: "rocky-mountains" },
+      { label: "Niagarafälle", slug: "niagarafaelle" },
+      { label: "Eisbären und Elche", slug: "eisbaeren-und-elche" },
+      { label: "Nordlichter", slug: "polarlicht" },
     ],
     personen: [
       { name: "Wayne Gretzky", info: "Der Eishockeyspieler wird „The Great One“ genannt und gilt als einer der besten seines Sports." },

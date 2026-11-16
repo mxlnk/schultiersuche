@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hei (sprich: hei)",
     essen: "Lachs, Waffeln, Fischsuppe und Brunost (süßlicher brauner Käse)",
     bekanntFuer: [
-      "Fjorde",
-      "Polarlicht",
-      "Wikinger",
-      "Skifahren",
-      "Mitternachtssonne",
-      "Trolle",
+      { label: "Fjorde", slug: "fjorde" },
+      { label: "Polarlicht", slug: "polarlicht" },
+      { label: "Wikinger", slug: "wikinger" },
+      { label: "Skifahren", slug: "skifahren" },
+      { label: "Mitternachtssonne", slug: "mitternachtssonne" },
+      { label: "Trolle", slug: "trolle" },
     ],
     personen: [
       { name: "Roald Amundsen", info: "Der Polarforscher war 1911 mit seinem Team der erste Mensch am Südpol." },

@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Zdravo (sprich: sdra-wo)",
     essen: "Fisch und Muscheln vom Meer, Njeguši-Schinken, Kajmak (Rahm) und Maisbrei",
     bekanntFuer: [
-      "Sveti Stefan",
-      "Bucht von Kotor",
-      "Schwarze Berge",
-      "Tara-Schlucht",
-      "Wasserball",
+      { label: "Sveti Stefan", slug: "sveti-stefan" },
+      { label: "Bucht von Kotor", slug: "bucht-von-kotor" },
+      { label: "Schwarze Berge", slug: "durmitor" },
+      { label: "Tara-Schlucht", slug: "tara-schlucht" },
+      { label: "Wasserball", slug: "wasserball" },
     ],
     personen: [
       { name: "Predrag Mijatović", info: "Fußballer, der 1998 mit Real Madrid das entscheidende Tor im Finale der Champions League schoss." },

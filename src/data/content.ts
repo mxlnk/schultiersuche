@@ -38,7 +38,8 @@ export interface CountryInfo {
   // So sagt man "Hallo", z. B. "Bonjour (sprich: bon-schuur)".
   hallo: string;
   essen: string;
-  bekanntFuer: string[];
+  // Stichworte, jedes mit dem Slug des Artikels, der es erklärt.
+  bekanntFuer: { label: string; slug: string }[];
   personen: Person[];
 }
 

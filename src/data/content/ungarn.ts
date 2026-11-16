@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Szia (sprich: ßi-a). Höflich sagt man „Jó napot“ (sprich: jo na-pot)",
     essen: "Gulaschsuppe, Langos (frittiertes Fladenbrot), Palatschinken und Paprika",
     bekanntFuer: [
-      "Zauberwürfel",
-      "Kugelschreiber",
-      "Gulasch und Paprika",
-      "Heilbäder",
-      "Plattensee",
-      "Pferde in der Puszta",
+      { label: "Zauberwürfel", slug: "zauberwuerfel" },
+      { label: "Kugelschreiber", slug: "kugelschreiber" },
+      { label: "Gulasch und Paprika", slug: "gulasch" },
+      { label: "Heilbäder", slug: "heilbaeder-ungarn" },
+      { label: "Plattensee", slug: "plattensee" },
+      { label: "Pferde in der Puszta", slug: "puszta" },
     ],
     personen: [
       { name: "Ernő Rubik", info: "Der Erfinder aus Budapest baute 1974 den Zauberwürfel." },

@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Pryvit – Привіт (sprich: pri-wit)",
     essen: "Borschtsch (rote Suppe), Wareniki (gefüllte Teigtaschen), Krautrollen und Pampuschky",
     bekanntFuer: [
-      "Weizen und Sonnenblumen",
-      "Bemalte Ostereier",
-      "Bestickte Hemden",
-      "Karpaten",
-      "Kosaken",
-      "Fruchtbare schwarze Erde",
+      { label: "Weizen und Sonnenblumen", slug: "weizen-und-sonnenblumen" },
+      { label: "Bemalte Ostereier", slug: "pysanky" },
+      { label: "Bestickte Hemden", slug: "wyschywanka" },
+      { label: "Karpaten", slug: "karpaten" },
+      { label: "Kosaken", slug: "kosaken" },
+      { label: "Fruchtbare schwarze Erde", slug: "schwarzerde" },
     ],
     personen: [
       { name: "Igor Sikorski", info: "Der Erfinder aus Kiew baute einen der ersten brauchbaren Hubschrauber." },

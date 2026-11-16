@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Zdravo (sprich: sdra-wo)",
     essen: "Ćevapi im Fladenbrot, Burek (Blätterteig mit Hack), Baklava und starker Kaffee",
     bekanntFuer: [
-      "Brücke von Mostar",
-      "Ćevapi",
-      "Winterolympiade 1984",
-      "Grüne Flüsse",
-      "Wasserfälle",
+      { label: "Brücke von Mostar", slug: "bruecke-von-mostar" },
+      { label: "Ćevapi", slug: "cevapi" },
+      { label: "Winterolympiade 1984", slug: "sarajevo-1984" },
+      { label: "Grüne Flüsse", slug: "gruene-fluesse-bosnien" },
+      { label: "Wasserfälle", slug: "kravica-wasserfaelle" },
     ],
     personen: [
       { name: "Edin Džeko", info: "Fußballer aus Sarajevo, der viele Tore geschossen hat, unter anderem für den VfL Wolfsburg." },

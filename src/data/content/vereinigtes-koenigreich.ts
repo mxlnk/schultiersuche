@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Ben Nevis (1.345 m)",
     hallo: "Hello (sprich: hä-lo)",
     essen: "Fish and Chips, Scones mit Marmelade, Porridge und Tee mit Milch",
-    bekanntFuer: ["Big Ben und Tower Bridge", "Rote Doppeldeckerbusse", "Harry Potter", "Fußball und Tennis", "Königsfamilie", "Linksverkehr"],
+    bekanntFuer: [
+      { label: "Big Ben und Tower Bridge", slug: "big-ben-und-tower-bridge" },
+      { label: "Rote Doppeldeckerbusse", slug: "doppeldeckerbus" },
+      { label: "Harry Potter", slug: "harry-potter" },
+      { label: "Fußball und Tennis", slug: "fussball-und-tennis-grossbritannien" },
+      { label: "Königsfamilie", slug: "britische-koenigsfamilie" },
+      { label: "Linksverkehr", slug: "linksverkehr" },
+    ],
     personen: [
       { name: "J. K. Rowling", info: "Sie hat die Bücher über den Zauberschüler Harry Potter geschrieben." },
       { name: "Roald Dahl", info: "Er wurde in Wales geboren und schrieb Kinderbücher wie „Charlie und die Schokoladenfabrik“ und „Matilda“." },

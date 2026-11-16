@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hola (sprich: oh-la, das h hört man nicht)",
     essen: "Tacos, Tortillas, Guacamole, Bohnen und Mais, dazu Schokolade",
     bekanntFuer: [
-      "Maya-Pyramiden",
-      "Tacos und Chili",
-      "Schokolade (Kakao)",
-      "Tag der Toten",
-      "Mariachi-Musik",
-      "Axolotl",
+      { label: "Maya-Pyramiden", slug: "maya-pyramiden" },
+      { label: "Tacos und Chili", slug: "tacos" },
+      { label: "Schokolade (Kakao)", slug: "kakao" },
+      { label: "Tag der Toten", slug: "tag-der-toten" },
+      { label: "Mariachi-Musik", slug: "mariachi" },
+      { label: "Axolotl", slug: "axolotl" },
     ],
     personen: [
       { name: "Frida Kahlo", info: "Die Malerin wurde für ihre bunten Selbstbildnisse berühmt, auf denen sie oft Tiere und Blumen malte." },

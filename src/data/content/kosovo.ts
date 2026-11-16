@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Përshëndetje (sprich: per-schen-det-je)",
     essen: "Flija (geschichteter Pfannkuchen), Pite (Teigtasche), Qebapa und frisches Gemüse",
     bekanntFuer: [
-      "Eines der jüngsten Länder Europas",
-      "Junge Bevölkerung",
-      "Judo-Olympiasiegerinnen",
-      "Rugova-Schlucht",
-      "Das Denkmal „Newborn“",
+      { label: "Eines der jüngsten Länder Europas", slug: "juengstes-land-europas" },
+      { label: "Junge Bevölkerung", slug: "junge-bevoelkerung-kosovo" },
+      { label: "Judo-Olympiasiegerinnen", slug: "judo-kosovo" },
+      { label: "Rugova-Schlucht", slug: "rugova-schlucht" },
+      { label: "Das Denkmal „Newborn“", slug: "newborn-denkmal" },
     ],
     personen: [
       { name: "Rita Ora", info: "Sängerin, die in Pristina geboren wurde und als Kind nach England zog." },

@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Namaste – नमस्ते (sprich: na-ma-ste)",
     essen: "Reis, Fladenbrot (Naan), Linsengericht Dal und Gemüse-Curry",
     bekanntFuer: [
-      "Taj Mahal",
-      "Bollywood-Filme",
-      "Tiger und Elefanten",
-      "Holi, das Fest der Farben",
-      "Kricket",
-      "Gewürze",
+      { label: "Taj Mahal", slug: "taj-mahal" },
+      { label: "Bollywood-Filme", slug: "bollywood" },
+      { label: "Tiger und Elefanten", slug: "tiger-und-elefanten-indien" },
+      { label: "Holi, das Fest der Farben", slug: "holi" },
+      { label: "Kricket", slug: "kricket" },
+      { label: "Gewürze", slug: "indische-gewuerze" },
     ],
     personen: [
       {

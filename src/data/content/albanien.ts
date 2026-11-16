@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Tungjatjeta (sprich: tun-djat-je-ta)",
     essen: "Byrek (Blätterteigtasche), Tavë Kosi (Lamm mit Joghurt), Oliven und frisches Obst",
     bekanntFuer: [
-      "Berat, Stadt der tausend Fenster",
-      "Land der Adler",
-      "Albanische Riviera",
-      "Balkan-Luchs",
-      "Bunte Häuser in Tirana",
+      { label: "Berat, Stadt der tausend Fenster", slug: "berat" },
+      { label: "Land der Adler", slug: "land-der-adler" },
+      { label: "Albanische Riviera", slug: "albanische-riviera" },
+      { label: "Balkan-Luchs", slug: "balkanluchs" },
+      { label: "Bunte Häuser in Tirana", slug: "tirana" },
     ],
     personen: [
       { name: "Inva Mula", info: "Opernsängerin aus Tirana, die auf berühmten Bühnen in aller Welt gesungen hat." },

@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Cześć (sprich: tschescht-sch). Höflich sagt man „Dzień dobry“ (sprich: dschenj dobri)",
     essen: "Pierogi (gefüllte Teigtaschen), Rote-Bete-Suppe, Bigos und Mohnkuchen",
     bekanntFuer: [
-      "Wisente",
-      "Pierogi",
-      "Bernstein",
-      "Frédéric Chopin",
-      "Wawel-Drache",
-      "Masurische Seen",
+      { label: "Wisente", slug: "wisent" },
+      { label: "Pierogi", slug: "pierogi" },
+      { label: "Bernstein", slug: "bernstein" },
+      { label: "Frédéric Chopin", slug: "chopin" },
+      { label: "Wawel-Drache", slug: "wawel-drache" },
+      { label: "Masurische Seen", slug: "masurische-seen" },
     ],
     personen: [
       { name: "Frédéric Chopin", info: "Der Komponist und Pianist schrieb wunderschöne Klavierstücke." },

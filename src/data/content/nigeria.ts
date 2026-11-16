@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Sannu (sprich: san-nu, auf Hausa) oder Hello auf Englisch",
     essen: "Jollof-Reis, gebratene Kochbananen, Akara (Bohnenküchlein) und Fufu",
     bekanntFuer: [
-      "Viele Menschen und Sprachen",
-      "Nollywood-Filme",
-      "Afrobeats-Musik",
-      "Fußball (Super Eagles)",
-      "Bunte Stoffe",
+      { label: "Viele Menschen und Sprachen", slug: "sprachen-nigeria" },
+      { label: "Nollywood-Filme", slug: "nollywood" },
+      { label: "Afrobeats-Musik", slug: "afrobeats" },
+      { label: "Fußball (Super Eagles)", slug: "super-eagles" },
+      { label: "Bunte Stoffe", slug: "bunte-stoffe-nigeria" },
     ],
     personen: [
       { name: "Wole Soyinka", info: "Der Schriftsteller bekam 1986 den Nobelpreis für Literatur." },
