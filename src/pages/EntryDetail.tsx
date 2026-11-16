@@ -67,22 +67,22 @@ export default function EntryDetail() {
           {content.related.intro && (
             <p className="text-gray-700 text-base md:text-lg mb-4">{content.related.intro}</p>
           )}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <ul className="list-disc pl-6 space-y-1 text-base md:text-lg">
             {content.related.slugs.map((slug) => {
               const target = entries.find((e) => e.link === `/eintrag/${slug}`);
               if (!target) return null;
               return (
-                <Link
-                  key={slug}
-                  to={target.link}
-                  className={`flex items-center gap-3 rounded-2xl px-4 py-3 font-bold text-base md:text-lg transition-colors ${theme.backLink}`}
-                >
-                  <span className="text-2xl md:text-3xl">{target.emoji}</span>
-                  {target.name}
-                </Link>
+                <li key={slug}>
+                  <Link
+                    to={target.link}
+                    className="text-blue-600 underline hover:text-blue-800 visited:text-purple-700"
+                  >
+                    {target.name}
+                  </Link>
+                </li>
               );
             })}
-          </div>
+          </ul>
         </section>
       )}
     </div>
