@@ -1,4 +1,4 @@
-export type EntryType = "tier" | "pflanze";
+export type EntryType = "tier" | "pflanze" | "musik";
 
 export type CategoryId =
   // Tiere
@@ -14,7 +14,11 @@ export type CategoryId =
   | "kraeuter"
   | "straeucher"
   | "baeume"
-  | "graeser";
+  | "graeser"
+  // Musik
+  | "musikarten"
+  | "komponisten"
+  | "mozart-werke";
 
 export interface Category {
   id: CategoryId;
@@ -33,6 +37,7 @@ export interface Entry {
 export const kingdoms: { id: EntryType; label: string; emoji: string }[] = [
   { id: "tier", label: "Tiere", emoji: "🐾" },
   { id: "pflanze", label: "Pflanzen", emoji: "🌿" },
+  { id: "musik", label: "Musik", emoji: "🎵" },
 ];
 
 export const categories: Category[] = [
@@ -50,6 +55,10 @@ export const categories: Category[] = [
   { id: "straeucher", label: "Sträucher", emoji: "🪴", type: "pflanze" },
   { id: "baeume", label: "Bäume", emoji: "🌳", type: "pflanze" },
   { id: "graeser", label: "Gräser & Schilf", emoji: "🌾", type: "pflanze" },
+  // Musik
+  { id: "musikarten", label: "Musikarten", emoji: "🎼", type: "musik" },
+  { id: "komponisten", label: "Komponisten", emoji: "🎹", type: "musik" },
+  { id: "mozart-werke", label: "Stücke von Mozart", emoji: "🎶", type: "musik" },
 ];
 
 export const entries: Entry[] = [
@@ -125,4 +134,25 @@ export const entries: Entry[] = [
   { name: "Lieschgras", link: "/eintrag/lieschgras", category: "graeser", emoji: "🌾" },
   { name: "Flatterbinse", link: "/eintrag/binse", category: "graeser", emoji: "🌾" },
   { name: "Pfeifengras", link: "/eintrag/pfeifengras", category: "graeser", emoji: "🌾" },
+  // Musik — Musikarten
+  { name: "Oper", link: "/eintrag/oper", category: "musikarten", emoji: "🎭" },
+  { name: "Requiem", link: "/eintrag/requiem", category: "musikarten", emoji: "⛪" },
+  { name: "Serenade", link: "/eintrag/serenade", category: "musikarten", emoji: "🌙" },
+  // Musik — Komponisten
+  { name: "Wolfgang Amadeus Mozart", link: "/eintrag/mozart", category: "komponisten", emoji: "🎹" },
+  { name: "Ludwig van Beethoven", link: "/eintrag/beethoven", category: "komponisten", emoji: "🎼" },
+  // Musik — Stücke von Mozart
+  { name: "Die Zauberflöte", link: "/eintrag/zauberfloete", category: "mozart-werke", emoji: "🪄" },
+  { name: "Eine kleine Nachtmusik", link: "/eintrag/kleine-nachtmusik", category: "mozart-werke", emoji: "🌃" },
+  { name: "Mozarts Requiem", link: "/eintrag/mozart-requiem", category: "mozart-werke", emoji: "🕯️" },
+  { name: "Die Hochzeit des Figaro", link: "/eintrag/figaro", category: "mozart-werke", emoji: "💍" },
+  { name: "Don Giovanni", link: "/eintrag/don-giovanni", category: "mozart-werke", emoji: "🤺" },
+  { name: "Die Entführung aus dem Serail", link: "/eintrag/entfuehrung-aus-dem-serail", category: "mozart-werke", emoji: "🏰" },
+  { name: "Sinfonie Nr. 40", link: "/eintrag/sinfonie-40", category: "mozart-werke", emoji: "🎻" },
+  { name: "Jupiter-Sinfonie", link: "/eintrag/jupiter-sinfonie", category: "mozart-werke", emoji: "🪐" },
+  { name: "Türkischer Marsch", link: "/eintrag/tuerkischer-marsch", category: "mozart-werke", emoji: "🥁" },
+  { name: "Klavierkonzert Nr. 21", link: "/eintrag/klavierkonzert-21", category: "mozart-werke", emoji: "🎹" },
+  { name: "Klarinettenkonzert", link: "/eintrag/klarinettenkonzert", category: "mozart-werke", emoji: "🎶" },
+  { name: "Ave verum corpus", link: "/eintrag/ave-verum", category: "mozart-werke", emoji: "🕊️" },
+  { name: "Ah, vous dirai-je, Maman", link: "/eintrag/ah-vous-dirai-je-maman", category: "mozart-werke", emoji: "⭐" },
 ];
