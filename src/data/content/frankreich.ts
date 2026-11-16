@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Mont Blanc (4.806 m)",
     hallo: "Bonjour (sprich: bon-schuur)",
     essen: "Baguette, Croissants, Crêpes und viele verschiedene Käsesorten",
-    bekanntFuer: ["Eiffelturm", "Tour de France", "Käse und Baguette", "Der kleine Prinz", "Asterix und Obelix", "Mona Lisa im Louvre"],
+    bekanntFuer: [
+      { label: "Eiffelturm", slug: "eiffelturm" },
+      { label: "Tour de France", slug: "tour-de-france" },
+      { label: "Käse und Baguette", slug: "kaese-und-baguette" },
+      { label: "Der kleine Prinz", slug: "der-kleine-prinz" },
+      { label: "Asterix und Obelix", slug: "asterix-und-obelix" },
+      { label: "Mona Lisa im Louvre", slug: "mona-lisa" },
+    ],
     personen: [
       { name: "Kylian Mbappé", info: "Er ist ein sehr schneller Fußballspieler aus Paris und wurde 2018 mit Frankreich Weltmeister." },
       { name: "Antoine de Saint-Exupéry", info: "Er war ein Pilot und Schriftsteller und hat die Geschichte vom „Kleinen Prinzen“ geschrieben." },

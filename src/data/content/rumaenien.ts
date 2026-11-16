@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Salut (sprich: ßa-lut)",
     essen: "Sarmale (Kohlrouladen), Mămăligă (Maisbrei), Mici und Papanași (Krapfen)",
     bekanntFuer: [
-      "Schloss Bran",
-      "Karpaten",
-      "Braunbären",
-      "Donaudelta",
-      "Nadia Comăneci",
-      "Transfăgărășan-Straße",
+      { label: "Schloss Bran", slug: "schloss-bran" },
+      { label: "Karpaten", slug: "karpaten" },
+      { label: "Braunbären", slug: "braunbaer" },
+      { label: "Donaudelta", slug: "donaudelta" },
+      { label: "Nadia Comăneci", slug: "nadia-comaneci" },
+      { label: "Transfăgărășan-Straße", slug: "transfagarasan" },
     ],
     personen: [
       { name: "Nadia Comăneci", info: "Turnerin, die 1976 bei den Olympischen Spielen als Erste die Höchstnote 10 bekam." },

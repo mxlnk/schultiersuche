@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Privet – Привет (sprich: pri-wjet)",
     essen: "Borschtsch (rote Suppe), Pelmeni (Teigtaschen), Blini (dünne Pfannkuchen)",
     bekanntFuer: [
-      "Matroschka-Puppen",
-      "Transsibirische Eisenbahn",
-      "Baikalsee",
-      "Raumfahrt",
-      "Ballett und Zirkus",
-      "Amurtiger",
+      { label: "Matroschka-Puppen", slug: "matroschka" },
+      { label: "Transsibirische Eisenbahn", slug: "transsibirische-eisenbahn" },
+      { label: "Baikalsee", slug: "baikalsee" },
+      { label: "Raumfahrt", slug: "raumfahrt-russland" },
+      { label: "Ballett und Zirkus", slug: "ballett-und-zirkus" },
+      { label: "Amurtiger", slug: "amurtiger" },
     ],
     personen: [
       { name: "Juri Gagarin", info: "Er flog 1961 als erster Mensch ins Weltall und umkreiste die Erde." },

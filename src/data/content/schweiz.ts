@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Grüezi (sprich: grü-e-tsi). Unter Freunden sagt man „Hoi“",
     essen: "Käsefondue, Raclette, Rösti und natürlich Schokolade",
     bekanntFuer: [
-      "Schokolade",
-      "Käse",
-      "Matterhorn und Berge",
-      "Taschenmesser",
-      "Uhren",
-      "Bernhardiner-Hunde",
+      { label: "Schokolade", slug: "schweizer-schokolade" },
+      { label: "Käse", slug: "schweizer-kaese" },
+      { label: "Matterhorn und Berge", slug: "matterhorn" },
+      { label: "Taschenmesser", slug: "taschenmesser" },
+      { label: "Uhren", slug: "schweizer-uhren" },
+      { label: "Bernhardiner-Hunde", slug: "bernhardiner" },
     ],
     personen: [
       { name: "Roger Federer", info: "Der Tennisspieler aus Basel gewann mehr als 20 große Turniere und gilt als einer der Besten aller Zeiten." },

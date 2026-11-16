@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Servus (sprich: ser-wus). Man sagt auch „Grüß Gott“",
     essen: "Wiener Schnitzel, Kaiserschmarrn, Apfelstrudel und Sachertorte",
     bekanntFuer: [
-      "Berge und Skifahren",
-      "Musik und Mozart",
-      "Wiener Sängerknaben",
-      "Lipizzaner-Pferde",
-      "Kaiserschmarrn",
-      "Schloss Schönbrunn",
+      { label: "Berge und Skifahren", slug: "alpen-oesterreich" },
+      { label: "Musik und Mozart", slug: "mozart" },
+      { label: "Wiener Sängerknaben", slug: "wiener-saengerknaben" },
+      { label: "Lipizzaner-Pferde", slug: "lipizzaner" },
+      { label: "Kaiserschmarrn", slug: "kaiserschmarrn" },
+      { label: "Schloss Schönbrunn", slug: "schloss-schoenbrunn" },
     ],
     personen: [
       { name: "Wolfgang Amadeus Mozart", info: "Der Komponist aus Salzburg schrieb schon als Kind Musik und wurde weltberühmt." },

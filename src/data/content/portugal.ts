@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Olá (sprich: o-la)",
     essen: "Gegrillte Sardinen, Fischeintopf und süße Puddingtörtchen",
     bekanntFuer: [
-      "Seefahrer und Entdecker",
-      "Fußball",
-      "Blaue Kacheln",
-      "Korkeichen",
-      "Pastéis de nata",
-      "Riesige Meereswellen",
+      { label: "Seefahrer und Entdecker", slug: "portugiesische-seefahrer" },
+      { label: "Fußball", slug: "fussball" },
+      { label: "Blaue Kacheln", slug: "azulejos" },
+      { label: "Korkeichen", slug: "korkeiche" },
+      { label: "Pastéis de nata", slug: "pasteis-de-nata" },
+      { label: "Riesige Meereswellen", slug: "nazare-wellen" },
     ],
     personen: [
       { name: "Cristiano Ronaldo", info: "Er stammt von der Insel Madeira und ist einer der berühmtesten Fußballspieler der Welt." },

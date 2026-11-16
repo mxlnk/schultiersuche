@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Tere (sprich: te-re)",
     essen: "Schwarzbrot, Hering, Kartoffeln und Kama (Getreidemehl mit Joghurt)",
     bekanntFuer: [
-      "Skype",
-      "Sängerfeste",
-      "Mittelalterliche Altstadt",
-      "Wälder und Moore",
-      "Über 2000 Inseln",
-      "Internet und Computer",
+      { label: "Skype", slug: "skype" },
+      { label: "Sängerfeste", slug: "saengerfeste" },
+      { label: "Mittelalterliche Altstadt", slug: "altstadt-tallinn" },
+      { label: "Wälder und Moore", slug: "moore-estland" },
+      { label: "Über 2000 Inseln", slug: "inseln-estland" },
+      { label: "Internet und Computer", slug: "digitales-estland" },
     ],
     personen: [
       { name: "Arvo Pärt", info: "Der Komponist schreibt ruhige, besondere Musik, die auf der ganzen Welt gespielt wird." },

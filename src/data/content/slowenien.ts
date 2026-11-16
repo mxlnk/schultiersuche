@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Živjo (sprich: schiw-jo). Höflich sagt man „Dober dan“ (sprich: dober dan)",
     essen: "Potica (Nussrolle), Krainer Wurst, Eintopf mit Bohnen und Kürbiskernöl",
     bekanntFuer: [
-      "Bleder See",
-      "Triglav und Berge",
-      "Tropfsteinhöhlen",
-      "Lipizzaner-Pferde",
-      "Imkerei",
-      "Skispringen",
+      { label: "Bleder See", slug: "bleder-see" },
+      { label: "Triglav und Berge", slug: "triglav" },
+      { label: "Tropfsteinhöhlen", slug: "tropfsteinhoehlen" },
+      { label: "Lipizzaner-Pferde", slug: "lipizzaner" },
+      { label: "Imkerei", slug: "imkerei-slowenien" },
+      { label: "Skispringen", slug: "skispringen" },
     ],
     personen: [
       { name: "Tadej Pogačar", info: "Der Radrennfahrer gewann mehrmals die Tour de France." },

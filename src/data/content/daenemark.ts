@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hej (sprich: hei)",
     essen: "Smørrebrød (belegte Brote), Frikadellen, Hotdogs und Zimtschnecken",
     bekanntFuer: [
-      "Lego",
-      "Märchen von Andersen",
-      "Kleine Meerjungfrau",
-      "Fahrradfahren",
-      "Wikinger",
-      "Hygge (Gemütlichkeit)",
+      { label: "Lego", slug: "lego" },
+      { label: "Märchen von Andersen", slug: "hans-christian-andersen" },
+      { label: "Kleine Meerjungfrau", slug: "kleine-meerjungfrau" },
+      { label: "Fahrradfahren", slug: "fahrrad" },
+      { label: "Wikinger", slug: "wikinger" },
+      { label: "Hygge (Gemütlichkeit)", slug: "hygge" },
     ],
     personen: [
       { name: "Hans Christian Andersen", info: "Er schrieb weltberühmte Märchen wie „Die kleine Meerjungfrau“ und „Des Kaisers neue Kleider“." },

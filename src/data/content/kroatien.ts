@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Bok (sprich: bock)",
     essen: "Čevapčići (Hackfleischröllchen), Strukli (Käse-Teigtaschen), Fisch und Palatschinken",
     bekanntFuer: [
-      "Plitvicer Seen",
-      "Über 1.000 Inseln",
-      "Dalmatiner",
-      "Fußball-Vizeweltmeister 2018",
-      "Die Krawatte",
+      { label: "Plitvicer Seen", slug: "plitvicer-seen" },
+      { label: "Über 1.000 Inseln", slug: "inseln-kroatien" },
+      { label: "Dalmatiner", slug: "dalmatiner" },
+      { label: "Fußball-Vizeweltmeister 2018", slug: "kroatien-fussball" },
+      { label: "Die Krawatte", slug: "krawatte" },
     ],
     personen: [
       { name: "Luka Modrić", info: "Fußballstar, der 2018 als bester Spieler der Welt ausgezeichnet wurde." },

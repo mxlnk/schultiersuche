@@ -18,12 +18,12 @@ const content: EntryContent = {
     hallo: "Buongiorno (sprich: buon-dschor-no)",
     essen: "Pizza, Pasta, Eis (Gelato) und süßes Gebäck, wie in der Stadt Rom",
     bekanntFuer: [
-      "Kleinster Staat der Welt",
-      "Petersdom",
-      "Sixtinische Kapelle",
-      "Schweizergarde",
-      "Der Papst",
-      "Petersplatz",
+      { label: "Kleinster Staat der Welt", slug: "zwergstaaten" },
+      { label: "Petersdom", slug: "petersdom" },
+      { label: "Sixtinische Kapelle", slug: "sixtinische-kapelle" },
+      { label: "Schweizergarde", slug: "schweizergarde" },
+      { label: "Der Papst", slug: "papst" },
+      { label: "Petersplatz", slug: "petersplatz" },
     ],
     personen: [
       { name: "Michelangelo", info: "Ein Künstler aus Italien. Er malte die Decke der Sixtinischen Kapelle und half beim Bau der Kuppel des Petersdoms." },

@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Salam (sprich: sa-lam)",
     essen: "Couscous, Tajine (Eintopf aus dem Tontopf), Minztee und süße Datteln",
     bekanntFuer: [
-      "Bunte Märkte (Souks)",
-      "Wüste Sahara",
-      "Atlasgebirge",
-      "Fußball-Nationalteam",
-      "Arganöl",
+      { label: "Bunte Märkte (Souks)", slug: "souks" },
+      { label: "Wüste Sahara", slug: "sahara" },
+      { label: "Atlasgebirge", slug: "atlasgebirge" },
+      { label: "Fußball-Nationalteam", slug: "marokko-fussball" },
+      { label: "Arganöl", slug: "arganoel" },
     ],
     personen: [
       { name: "Ibn Battuta", info: "Der Entdecker aus Tanger reiste im 14. Jahrhundert fast 30 Jahre lang durch die halbe Welt." },

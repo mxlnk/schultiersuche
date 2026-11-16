@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Здраво (sprich: sdra-wo)",
     essen: "Tavče gravče (Bohnen im Tontopf), Ajvar, Schopska-Salat und Burek",
     bekanntFuer: [
-      "Ohridsee",
-      "Mutter Teresa",
-      "Tavče gravče",
-      "Matka-Schlucht",
-      "Ohrid-Perlen",
+      { label: "Ohridsee", slug: "ohridsee" },
+      { label: "Mutter Teresa", slug: "mutter-teresa" },
+      { label: "Tavče gravče", slug: "tavce-gravce" },
+      { label: "Matka-Schlucht", slug: "matka-schlucht" },
+      { label: "Ohrid-Perlen", slug: "ohrid-perlen" },
     ],
     personen: [
       { name: "Mutter Teresa", info: "Wurde 1910 in Skopje geboren, stammte aus einer albanischen Familie und half in Indien armen und kranken Menschen." },

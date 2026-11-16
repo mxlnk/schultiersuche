@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hello (sprich: hä-loh)",
     essen: "Hamburger, Pfannkuchen mit Ahornsirup, Hotdogs und Apple Pie",
     bekanntFuer: [
-      "Freiheitsstatue",
-      "Yellowstone-Nationalpark",
-      "Grand Canyon",
-      "Basketball und Baseball",
-      "Mondlandung",
-      "Disney-Filme",
+      { label: "Freiheitsstatue", slug: "freiheitsstatue" },
+      { label: "Yellowstone-Nationalpark", slug: "yellowstone" },
+      { label: "Grand Canyon", slug: "grand-canyon" },
+      { label: "Basketball und Baseball", slug: "basketball-und-baseball" },
+      { label: "Mondlandung", slug: "mondlandung" },
+      { label: "Disney-Filme", slug: "disney" },
     ],
     personen: [
       { name: "Neil Armstrong", info: "Er war 1969 der erste Mensch, der auf dem Mond herumgelaufen ist." },

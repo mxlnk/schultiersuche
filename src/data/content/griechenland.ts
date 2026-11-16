@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Γειά σου (sprich: ja-su)",
     essen: "Gyros, Feta-Käse, Oliven und Tzatziki (Joghurt mit Gurke)",
     bekanntFuer: [
-      "Akropolis in Athen",
-      "Griechische Götter und Sagen",
-      "Olympische Spiele",
-      "Viele Inseln",
-      "Oliven und Feta",
-      "Weiße Häuser am Meer",
+      { label: "Akropolis in Athen", slug: "akropolis" },
+      { label: "Griechische Götter und Sagen", slug: "griechische-goetter" },
+      { label: "Olympische Spiele", slug: "olympische-spiele" },
+      { label: "Viele Inseln", slug: "griechische-inseln" },
+      { label: "Oliven und Feta", slug: "oliven-und-feta" },
+      { label: "Weiße Häuser am Meer", slug: "santorin" },
     ],
     personen: [
       { name: "Pythagoras", info: "Er war ein Mathematiker, nach dem ein bekannter Satz über Dreiecke benannt ist." },

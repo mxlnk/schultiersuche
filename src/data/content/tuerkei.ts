@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Merhaba (sprich: mer-ha-ba)",
     essen: "Döner, Simit (Sesamkringel), Baklava und türkischer Honig",
     bekanntFuer: [
-      "Istanbul auf zwei Kontinenten",
-      "Heißluftballons in Kappadokien",
-      "Döner und Baklava",
-      "Kangal-Hirtenhunde",
-      "Kalkterrassen von Pamukkale",
-      "Kindertag am 23. April",
+      { label: "Istanbul auf zwei Kontinenten", slug: "istanbul" },
+      { label: "Heißluftballons in Kappadokien", slug: "kappadokien" },
+      { label: "Döner und Baklava", slug: "doener-und-baklava" },
+      { label: "Kangal-Hirtenhunde", slug: "kangal" },
+      { label: "Kalkterrassen von Pamukkale", slug: "pamukkale" },
+      { label: "Kindertag am 23. April", slug: "kindertag-tuerkei" },
     ],
     personen: [
       { name: "Mimar Sinan", info: "Er war ein berühmter Baumeister, der vor langer Zeit viele große Moscheen und Brücken baute." },

@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hola (sprich: o-la)",
     essen: "Paella, Tortilla, Gazpacho (kalte Gemüsesuppe) und Churros",
     bekanntFuer: [
-      "Fußball",
-      "Flamenco-Tanz",
-      "Strände am Meer",
-      "Tomatenschlacht",
-      "Sagrada Família",
-      "Iberischer Luchs",
+      { label: "Fußball", slug: "fussball" },
+      { label: "Flamenco-Tanz", slug: "flamenco" },
+      { label: "Strände am Meer", slug: "straende-spanien" },
+      { label: "Tomatenschlacht", slug: "tomatina" },
+      { label: "Sagrada Família", slug: "sagrada-familia" },
+      { label: "Iberischer Luchs", slug: "iberischer-luchs" },
     ],
     personen: [
       { name: "Rafael Nadal", info: "Er ist ein berühmter Tennisspieler und hat sehr oft in Paris gewonnen." },

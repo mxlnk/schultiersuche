@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Ahoj (sprich: a-hoj). Höflich sagt man „Dobrý deň“ (sprich: dobri djenj)",
     essen: "Halušky (Nockerl mit Schafskäse), Krautsuppe, Mohnstrudel",
     bekanntFuer: [
-      "Hohe Tatra",
-      "Burgen und Ruinen",
-      "Tropfsteinhöhlen",
-      "Schafskäse",
-      "Eishockey",
-      "Braunbären",
+      { label: "Hohe Tatra", slug: "hohe-tatra" },
+      { label: "Burgen und Ruinen", slug: "burgen" },
+      { label: "Tropfsteinhöhlen", slug: "tropfsteinhoehlen" },
+      { label: "Schafskäse", slug: "bryndza" },
+      { label: "Eishockey", slug: "eishockey" },
+      { label: "Braunbären", slug: "braunbaer" },
     ],
     personen: [
       { name: "Peter Sagan", info: "Der Radrennfahrer aus Žilina wurde dreimal Weltmeister." },

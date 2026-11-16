@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Jambo (sprich: dscham-bo)",
     essen: "Ugali (fester Maisbrei), Chapati (Fladenbrot), Mandazi und Gegrilltes",
     bekanntFuer: [
-      "Safari und Wildtiere",
-      "Große Tierwanderung",
-      "Masai Mara",
-      "Läuferinnen und Läufer",
-      "Mount Kenya",
+      { label: "Safari und Wildtiere", slug: "safari-kenia" },
+      { label: "Große Tierwanderung", slug: "grosse-tierwanderung" },
+      { label: "Masai Mara", slug: "masai-mara" },
+      { label: "Läuferinnen und Läufer", slug: "laeufer-aus-kenia" },
+      { label: "Mount Kenya", slug: "mount-kenya" },
     ],
     personen: [
       { name: "Wangari Maathai", info: "Sie pflanzte mit anderen Frauen Millionen Bäume und bekam dafür den Friedensnobelpreis." },

@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Kneiff (560 m)",
     hallo: "Moien (sprich: mo-jen)",
     essen: "Kartoffelpuffer, Bohnensuppe, Schweinenacken mit dicken Bohnen und Obsttorten",
-    bekanntFuer: ["Burgen und Schlösser", "Großherzogtum", "Drei Sprachen", "Ardennen und Wälder", "Kleines Land, große Natur", "Mosel und Weinberge"],
+    bekanntFuer: [
+      { label: "Burgen und Schlösser", slug: "burgen" },
+      { label: "Großherzogtum", slug: "grossherzogtum" },
+      { label: "Drei Sprachen", slug: "drei-sprachen-luxemburg" },
+      { label: "Ardennen und Wälder", slug: "ardennen" },
+      { label: "Kleines Land, große Natur", slug: "mullerthal" },
+      { label: "Mosel und Weinberge", slug: "mosel" },
+    ],
     personen: [
       { name: "Gilles Müller", info: "Er ist ein Tennisspieler aus Luxemburg, der 2017 in Wimbledon den großen Rafael Nadal besiegte." },
       { name: "Charly Gaul", info: "Er war ein Radrennfahrer, der als „Engel der Berge“ bekannt war und 1958 die Tour de France gewann." },

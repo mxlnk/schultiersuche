@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hola (sprich: oh-la, das h hört man nicht)",
     essen: "Kartoffeln in vielen Sorten, Ceviche (roher Fisch mit Limette), Quinoa und Mais",
     bekanntFuer: [
-      "Machu Picchu",
-      "Inka",
-      "Lamas und Alpakas",
-      "Kartoffeln",
-      "Anden und Kondore",
-      "Nazca-Linien",
+      { label: "Machu Picchu", slug: "machu-picchu" },
+      { label: "Inka", slug: "inka" },
+      { label: "Lamas und Alpakas", slug: "lamas-und-alpakas" },
+      { label: "Kartoffeln", slug: "kartoffeln-peru" },
+      { label: "Anden und Kondore", slug: "anden-und-kondore" },
+      { label: "Nazca-Linien", slug: "nazca-linien" },
     ],
     personen: [
       { name: "Pachacútec", info: "Der Inka-Herrscher machte das Reich der Inka im 15. Jahrhundert riesig groß, und Machu Picchu wurde vermutlich für ihn gebaut." },

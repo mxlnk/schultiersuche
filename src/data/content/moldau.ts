@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Salut (sprich: ßa-lut)",
     essen: "Mămăligă (Maisbrei), Plăcinte (gefüllte Teigtaschen), Sarmale (Krautrollen)",
     bekanntFuer: [
-      "Wein und Weintrauben",
-      "Riesige Weinkeller",
-      "Felsenklöster",
-      "Sonnenblumenfelder",
-      "Mărțișor-Fest",
-      "Hügelige Landschaft",
+      { label: "Wein und Weintrauben", slug: "wein-moldau" },
+      { label: "Riesige Weinkeller", slug: "weinkeller-moldau" },
+      { label: "Felsenklöster", slug: "orheiul-vechi" },
+      { label: "Sonnenblumenfelder", slug: "sonnenblumen" },
+      { label: "Mărțișor-Fest", slug: "martisor" },
+      { label: "Hügelige Landschaft", slug: "huegel-moldau" },
     ],
     personen: [
       { name: "Eugen Doga", info: "Der Komponist schrieb den berühmten „Walzer“, der in vielen Ländern bekannt ist." },

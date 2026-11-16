@@ -18,7 +18,14 @@ const content: EntryContent = {
     hoechsterBerg: "Carrauntoohil (1.039 m)",
     hallo: "Dia duit (sprich: dija dit) auf Irisch, Hello auf Englisch",
     essen: "Irish Stew, Sodabrot, Kartoffelgerichte und Butter von glücklichen Kühen",
-    bekanntFuer: ["Kleeblatt", "Smaragdgrüne Wiesen", "St. Patrick’s Day", "Harfe als Wappen", "Irish Dance", "Schafe und Steinmauern"],
+    bekanntFuer: [
+      { label: "Kleeblatt", slug: "kleeblatt" },
+      { label: "Smaragdgrüne Wiesen", slug: "gruene-insel" },
+      { label: "St. Patrick’s Day", slug: "st-patricks-day" },
+      { label: "Harfe als Wappen", slug: "irische-harfe" },
+      { label: "Irish Dance", slug: "irish-dance" },
+      { label: "Schafe und Steinmauern", slug: "schafe-und-steinmauern" },
+    ],
     personen: [
       { name: "Jonathan Swift", info: "Er schrieb „Gullivers Reisen“, die Geschichte von einem Mann, der zu den Riesen und den Winzlingen kommt." },
       { name: "Oscar Wilde", info: "Er war ein Dichter aus Dublin, der auch Märchen wie „Der glückliche Prinz“ geschrieben hat." },

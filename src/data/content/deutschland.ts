@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hallo (sprich: ha-lo). Im Norden sagt man „Moin“, im Süden „Servus“ oder „Grüß Gott“",
     essen: "Brot und Brezeln, Bratwurst, Spätzle und Kartoffelsalat",
     bekanntFuer: [
-      "Fußball",
-      "Märchen der Brüder Grimm",
-      "Weihnachtsmärkte",
-      "Kuckucksuhren",
-      "Gummibärchen",
-      "Viele Brotsorten",
+      { label: "Fußball", slug: "fussball" },
+      { label: "Märchen der Brüder Grimm", slug: "brueder-grimm" },
+      { label: "Weihnachtsmärkte", slug: "weihnachtsmarkt" },
+      { label: "Kuckucksuhren", slug: "kuckucksuhr" },
+      { label: "Gummibärchen", slug: "gummibaerchen" },
+      { label: "Viele Brotsorten", slug: "deutsches-brot" },
     ],
     personen: [
       { name: "Jacob und Wilhelm Grimm", info: "Die beiden Brüder sammelten Märchen wie „Hänsel und Gretel“ und „Schneewittchen“ und schrieben sie auf." },

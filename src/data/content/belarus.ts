@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Pryvitanne – Прывітанне (sprich: pri-wi-tan-je)",
     essen: "Draniki (Kartoffelpuffer), Kolduny (gefüllte Kartoffelklöße), Borschtsch, Pilzsuppe",
     bekanntFuer: [
-      "Wisente",
-      "Urwald und Seen",
-      "Schloss Mir",
-      "Kartoffelgerichte",
-      "Biathlon",
-      "Viele Störche",
+      { label: "Wisente", slug: "wisent" },
+      { label: "Urwald und Seen", slug: "bialowieza-urwald" },
+      { label: "Schloss Mir", slug: "schloss-mir" },
+      { label: "Kartoffelgerichte", slug: "draniki" },
+      { label: "Biathlon", slug: "biathlon" },
+      { label: "Viele Störche", slug: "weissstorch" },
     ],
     personen: [
       { name: "Marc Chagall", info: "Der Maler wurde in der Nähe von Witebsk geboren und malte träumerische Bilder mit fliegenden Menschen und Tieren." },

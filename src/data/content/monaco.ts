@@ -17,7 +17,14 @@ const content: EntryContent = {
     nachbarn: "Frankreich",
     hallo: "Bonjour (sprich: bon-schuur)",
     essen: "Barbajuan (gefüllte Teigtaschen), frischer Fisch, Fougasse und Eis",
-    bekanntFuer: ["Formel-1-Rennen", "Fürstenpalast", "Jachten im Hafen", "Ozeanografisches Museum", "Zweitkleinstes Land", "Wolkenkratzer am Meer"],
+    bekanntFuer: [
+      { label: "Formel-1-Rennen", slug: "grosser-preis-von-monaco" },
+      { label: "Fürstenpalast", slug: "fuerstenpalast-monaco" },
+      { label: "Jachten im Hafen", slug: "hafen-monaco" },
+      { label: "Ozeanografisches Museum", slug: "ozeanografisches-museum" },
+      { label: "Zweitkleinstes Land", slug: "zwergstaaten" },
+      { label: "Wolkenkratzer am Meer", slug: "wolkenkratzer-monaco" },
+    ],
     personen: [
       { name: "Charles Leclerc", info: "Er wurde in Monte-Carlo geboren und fährt als Rennfahrer in der Formel 1." },
       { name: "Louis Chiron", info: "Er war ein Rennfahrer aus Monaco, der 1931 das berühmte Rennen in seiner Heimat gewann." },

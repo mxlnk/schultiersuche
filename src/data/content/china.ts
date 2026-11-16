@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Nǐ hǎo – 你好 (sprich: ni hau)",
     essen: "Reis, Nudeln, Teigtaschen (Jiaozi) und Peking-Ente",
     bekanntFuer: [
-      "Große Pandas",
-      "Chinesische Mauer",
-      "Terrakotta-Armee",
-      "Papier und Kompass",
-      "Drachen und Drachentänze",
-      "Tischtennis",
+      { label: "Große Pandas", slug: "grosser-panda" },
+      { label: "Chinesische Mauer", slug: "chinesische-mauer" },
+      { label: "Terrakotta-Armee", slug: "terrakotta-armee" },
+      { label: "Papier und Kompass", slug: "papier-und-kompass" },
+      { label: "Drachen und Drachentänze", slug: "drachentanz" },
+      { label: "Tischtennis", slug: "tischtennis" },
     ],
     personen: [
       {

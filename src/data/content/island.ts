@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hæ (sprich: hai)",
     essen: "Skyr (dicker Joghurt), Fisch, Lammfleisch und Hotdogs",
     bekanntFuer: [
-      "Vulkane",
-      "Geysire",
-      "Gletscher",
-      "Papageitaucher",
-      "Islandpferde",
-      "Polarlicht",
+      { label: "Vulkane", slug: "vulkane" },
+      { label: "Geysire", slug: "geysir" },
+      { label: "Gletscher", slug: "gletscher" },
+      { label: "Papageitaucher", slug: "papageitaucher" },
+      { label: "Islandpferde", slug: "islandpferd" },
+      { label: "Polarlicht", slug: "polarlicht" },
     ],
     personen: [
       { name: "Björk", info: "Die Sängerin ist für ihre besondere Stimme und ihre ungewöhnliche Musik berühmt." },

@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Sawubona (sprich: sa-wu-bo-na)",
     essen: "Braai (Grillfest), Biltong (Trockenfleisch), Bobotie und Bunny Chow",
     bekanntFuer: [
-      "Tafelberg",
-      "Safari im Krüger-Park",
-      "Pinguine am Strand",
-      "Rugby und Fußball",
-      "Regenbogennation",
+      { label: "Tafelberg", slug: "tafelberg" },
+      { label: "Safari im Krüger-Park", slug: "krueger-nationalpark" },
+      { label: "Pinguine am Strand", slug: "brillenpinguine" },
+      { label: "Rugby und Fußball", slug: "rugby-suedafrika" },
+      { label: "Regenbogennation", slug: "regenbogennation" },
     ],
     personen: [
       { name: "Nelson Mandela", info: "Er setzte sich für Gerechtigkeit ein und wurde der erste schwarze Präsident Südafrikas." },

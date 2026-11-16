@@ -19,11 +19,11 @@ const content: EntryContent = {
     hallo: "Ahlan (sprich: ach-lan)",
     essen: "Koschari (Nudeln, Reis, Linsen), Falafel, Fladenbrot mit Hummus und Baklava",
     bekanntFuer: [
-      "Pyramiden von Gizeh",
-      "Pharaonen und Mumien",
-      "Der Fluss Nil",
-      "Hieroglyphen",
-      "Tauchen im Roten Meer",
+      { label: "Pyramiden von Gizeh", slug: "pyramiden-von-gizeh" },
+      { label: "Pharaonen und Mumien", slug: "pharaonen-und-mumien" },
+      { label: "Der Fluss Nil", slug: "nil" },
+      { label: "Hieroglyphen", slug: "hieroglyphen" },
+      { label: "Tauchen im Roten Meer", slug: "rotes-meer" },
     ],
     personen: [
       { name: "Kleopatra", info: "Sie war die letzte Königin des alten Ägyptens und sprach viele Sprachen." },

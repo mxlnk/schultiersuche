@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Hola (sprich: o-la)",
     essen: "Escudella (Eintopf), Trinxat (Kartoffel-Kohl-Pfanne), Bergkäse, Crema catalana",
     bekanntFuer: [
-      "Skifahren",
-      "Pyrenäen",
-      "Wanderwege",
-      "Heiße Quellen",
-      "Steinbrücken",
-      "Bergseen",
+      { label: "Skifahren", slug: "skifahren" },
+      { label: "Pyrenäen", slug: "pyrenaeen" },
+      { label: "Wanderwege", slug: "wandern-in-andorra" },
+      { label: "Heiße Quellen", slug: "heisse-quellen-andorra" },
+      { label: "Steinbrücken", slug: "steinbruecken-andorra" },
+      { label: "Bergseen", slug: "bergseen-andorra" },
     ],
     personen: [
       { name: "Karl der Große", info: "Ein mächtiger König vor mehr als 1.200 Jahren. Der Legende nach hat er Andorra als Dank für Hilfe geschenkt." },

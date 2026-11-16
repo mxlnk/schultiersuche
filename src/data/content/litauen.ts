@@ -19,12 +19,12 @@ const content: EntryContent = {
     hallo: "Labas (sprich: la-bas)",
     essen: "Zeppelins (Kartoffelklöße mit Füllung), kalte Rote-Bete-Suppe, Schwarzbrot und Kibinai (gefüllte Teigtaschen)",
     bekanntFuer: [
-      "Basketball",
-      "Wasserburg Trakai",
-      "Bernstein",
-      "Störche",
-      "Kurische Nehrung",
-      "Rosa Rote-Bete-Suppe",
+      { label: "Basketball", slug: "basketball" },
+      { label: "Wasserburg Trakai", slug: "wasserburg-trakai" },
+      { label: "Bernstein", slug: "bernstein" },
+      { label: "Störche", slug: "weissstorch" },
+      { label: "Kurische Nehrung", slug: "kurische-nehrung" },
+      { label: "Rosa Rote-Bete-Suppe", slug: "saltibarsciai" },
     ],
     personen: [
       { name: "Arvydas Sabonis", info: "Er war ein riesiger Basketballspieler und einer der besten Europas." },
